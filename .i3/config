@@ -38,6 +38,9 @@ bindsym $mod+d exec --no-startup-id dmenu_recency
 # launch categorized menu
 bindsym $mod+z exec --no-startup-id morc_menu
 
+# launch emoji search
+bindsym $mod+period exec /home/gabriel/Downloads/dmenu-emoji/dmenu-emoji.sh
+
 ################################################################################################
 ## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
 ################################################################################################
@@ -286,7 +289,7 @@ exec --no-startup-id clipit
 exec --no-startup-id xautolock -time 10 -locker blurlock
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
-exec_always --no-startup-id wal -i ~/Pictures/wallpapers/Spacescapes/spacescape2.png
+exec_always --no-startup-id wal -i ~/Pictures/wallpapers/Etc/qual.png
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
 # https://i3wm.org/docs/userguide.html#xresources
