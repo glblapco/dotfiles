@@ -137,3 +137,9 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
+
+export EDITOR=vim
+export GOROOT=/usr/local/go
+export PATH=$PATH:$GOROOT/bin
+export GOPATH=/home/gabriel/golib
+export PATH=$PATH:$GOPATH/bin
