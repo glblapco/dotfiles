@@ -1,0 +1,15 @@
+# GIMP action-history
+
+(history-item "view-zoom-out" 5)
+(history-item "view-zoom-in" 0)
+(history-item "file-save" 1)
+(history-item "edit-paste" 1)
+(history-item "edit-clear" 0)
+(history-item "layers-delete" 1)
+(history-item "file-export-as" 1)
+(history-item "file-quit" 0)
+(history-item "image-new" 0)
+(history-item "layers-duplicate" 0)
+(history-item "layers-new" 1)
+
+# end of action-history
