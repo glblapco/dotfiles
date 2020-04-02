@@ -1,0 +1,46 @@
+:root:not([customizing]) #TabsToolbar{
+	display: none;
+}
+:root:not([customizing]) #navigator-toolbox {
+        background-color: #111111!important;
+}
+
+:root:not([customizing]) #navigator-toolbox #nav-bar {
+        min-height: 0!important;
+        max-height: 0;
+        height: 0;
+        overflow: hidden;
+}
+
+:root:not([customizing]) #navigator-toolbox:focus-within #nav-bar {
+        max-height: 32px;
+        height: 32px;
+}
+
+:root:not([customizing]) .tabbrowser-tab:not([pinned="true"]) {
+        --tab-min-width: fit-content;
+        -moz-box-flex: 0!important;
+        max-width: 70px;
+	display: none;
+}
+
+:root:not([customizing]) .tabbrowser-tab:not([pinned="true"]) .tab-stack {
+        flex-basis: 1;
+	display: none;
+}
+
+:root:not([customizing]) .tab-content {
+        padding: 0 6px;
+	display: none;
+}
+
+:root:not([customizing]) .tab-line,
+:root:not([customizing]) .tab-text,
+:root:not([customizing]) .tab-close-button {
+        display: none;
+}
+
+:root:not([customizing]) .tab-icon-image {
+        margin: 0!important;
+	display: none;
+}
