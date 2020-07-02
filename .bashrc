@@ -33,16 +33,6 @@ colors() {
 
 [ -r /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion
 
-# Change the window title of X terminals
-case ${TERM} in
-	xterm*|rxvt*|Eterm*|aterm|kterm|gnome*|interix|konsole*)
-		PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\~}\007"'
-		;;
-	screen*)
-		PROMPT_COMMAND='echo -ne "\033_${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\~}\033\\"'
-		;;
-esac
-
 use_color=true
 
 # Set colorful PS1 only on colorful terminals.
@@ -70,9 +60,9 @@ if ${use_color} ; then
 	fi
 
 	if [[ ${EUID} == 0 ]] ; then
-		PS1='\[\033[01;31m\][\h\[\033[01;36m\] \W\[\033[01;31m\]]\$\[\033[00m\] '
+		PS1="\[\e[1;36m\]\W\[\e[1;31m\]:\[\e[0m\] "
 	else
-		PS1='\[\033[01;32m\][\u@\h\[\033[01;37m\] \W\[\033[01;32m\]]\$\[\033[00m\] '
+		PS1="\[\e[1;36m\]\W\[\e[1;31m\]:\[\e[0m\] "
 	fi
 
 	alias ls='ls --color=auto'
@@ -82,9 +72,9 @@ if ${use_color} ; then
 else
 	if [[ ${EUID} == 0 ]] ; then
 		# show root@ when we don't have colors
-		PS1='\u@\h \W \$ '
+    PS1="\[\e[1;36m\]\W\[\e[1;31m\]:\[\e[0m\] "
 	else
-		PS1='\u@\h \w \$ '
+    PS1="\[\e[1;36m\]\W\[\e[1;31m\]:\[\e[0m\] "
 	fi
 fi
 
@@ -95,6 +85,7 @@ alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias np='nano -w PKGBUILD'
 alias more=less
+alias emacs='emacs -nw'
 
 xhost +local:root > /dev/null 2>&1
 
@@ -137,9 +128,3 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
-
-export EDITOR=vim
-export GOROOT=/usr/local/go
-export PATH=$PATH:$GOROOT/bin
-export GOPATH=/home/gabriel/golib
-export PATH=$PATH:$GOPATH/bin
