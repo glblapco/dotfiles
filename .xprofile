@@ -1,0 +1,5 @@
+#!/bin/sh
+
+pulseaudio &
+nitrogen --restore &
+dwmblocks &
