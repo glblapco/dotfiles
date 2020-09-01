@@ -57,10 +57,11 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='\W\[\033[00m\]: '
+    PS1='\[\033[01;32m\]\W\[\033[00m\]: '
 else
-    PS1='\W: '
+    PS1='\W\[\033[00m\]: '
 fi
+
 unset color_prompt force_color_prompt
 
 # If this is an xterm set the title to user@host:dir
