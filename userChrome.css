@@ -1,46 +1,44 @@
+@namespace "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
+
+#TabsToolbar, .tabbrowser-tab {max-height: 20px !important;
+  font-size: 11px;
+}
+
 :root:not([customizing]) #TabsToolbar{
-	display: none;
+  background-color: #000000;
 }
+
 :root:not([customizing]) #navigator-toolbox {
-        background-color: #111111!important;
+        background-color: #000000 !important;
 }
 
-:root:not([customizing]) #navigator-toolbox #nav-bar {
-        min-height: 0!important;
-        max-height: 0;
-        height: 0;
-        overflow: hidden;
+/* Change color of normal tabs */
+
+tab:not([selected="true"]) { background-color: #222222 !important;
+
+color: #888888 !important;}
+
+
+
+/* Tab: selected colors */
+
+#tabbrowser-tabs .tabbrowser-tab[selected] .tab-content { background: #285577 !important;
+
+color: #ffffff !important;
 }
 
-:root:not([customizing]) #navigator-toolbox:focus-within #nav-bar {
-        max-height: 32px;
-        height: 32px;
+/* Tab: hovered colors */
+
+#tabbrowser-tabs .tabbrowser-tab:hover:not([selected]) .tab-content {background: #285577 !important;
+
+color: #ffffff !important;}
+
+
+/*AGENT_SHEET*/
+#main-window #navigator-toolbox #TabsToolbar:not(:-moz-lwtheme){
+  background: #285577 !important;
 }
 
-:root:not([customizing]) .tabbrowser-tab:not([pinned="true"]) {
-        --tab-min-width: fit-content;
-        -moz-box-flex: 0!important;
-        max-width: 70px;
-	display: none;
-}
-
-:root:not([customizing]) .tabbrowser-tab:not([pinned="true"]) .tab-stack {
-        flex-basis: 1;
-	display: none;
-}
-
-:root:not([customizing]) .tab-content {
-        padding: 0 6px;
-	display: none;
-}
-
-:root:not([customizing]) .tab-line,
-:root:not([customizing]) .tab-text,
-:root:not([customizing]) .tab-close-button {
-        display: none;
-}
-
-:root:not([customizing]) .tab-icon-image {
-        margin: 0!important;
-	display: none;
+.tabbrowser-tab .tab-icon-image {
+  display: none !important;
 }
