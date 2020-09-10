@@ -1,8 +1,13 @@
 @namespace "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
 
-#TabsToolbar, .tabbrowser-tab {max-height: 20px !important;
-  font-size: 11px;
+#TabsToolbar, .tabbrowser-tab {max-height: 15px !important;
+  font-size: 9px;
 }
+
+#nav-bar {height: 25px !important; background-color: black !important;}
+#urlbar { height: 5px !important; background-color: black !important; border: none !important; font-size: 10px;} 
+
+#back-button, #forward-button { display:none!important; }
 
 :root:not([customizing]) #TabsToolbar{
   background-color: #000000;
@@ -42,3 +47,5 @@ color: #ffffff !important;}
 .tabbrowser-tab .tab-icon-image {
   display: none !important;
 }
+
+#tabbrowser-tabs .tabbrowser-tab .tab-close-button { display:none!important; }
