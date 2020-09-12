@@ -4,6 +4,9 @@
   font-size: 9px;
 }
 
+/* hide url bar */
+#nav-bar { visibility: collapse; }
+
 #nav-bar {height: 25px !important; background-color: black !important;}
 #urlbar { height: 5px !important; background-color: black !important; border: none !important; font-size: 10px;} 
 
