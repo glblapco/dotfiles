@@ -16,12 +16,15 @@ Plugin 'sirtaj/vim-openscad'
 
 Plugin 'fatih/vim-go'
 
+Plugin 'miyakogi/conoline.vim'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 " Put your non-Plugin stuff after this line
 
 syntax on
+colorscheme elflord
 set wildmenu
 set incsearch
 set confirm
