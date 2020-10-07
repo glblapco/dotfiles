@@ -1,0 +1,84 @@
+env:
+  # TERM env customization. Default is xterm-256color
+  # Note: the default TERM value `xterm-256color` does not
+  # specify all features alacritty supports. This does pose
+  # a few issues with programs relying on terminfo and the
+  # `tput` command
+  TERM: xterm-256color
+
+font:
+  # The normal (roman) font face to use.
+  normal:
+    family: Terminus
+    # Style can be specified to pick a specific face.
+    # style: Regular
+
+  # The bold font face
+  bold:
+    family: Terminus
+    # Style can be specified to pick a specific face.
+    # style: Bold
+
+  # The italic font face
+  italic:
+    family: Terminus
+    # Style can be specified to pick a specific face.
+    # style: Italic
+
+  # Point size of the font
+  size: 8
+
+colors:
+  # Default colors
+  primary:
+    background: '0x000000'
+    foreground: '0xeeffff'
+
+  # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '0xf07178'
+    green:   '0x13ca91'
+    yellow:  '0xfdf200'
+    blue:    '0x7898fb'
+    magenta: '0xff3299'
+    cyan:    '0x79ffe1'
+    white:   '0xeeffff'
+
+  # Bright colors
+  bright:
+    black:   '0x4a4a4a'
+    red:     '0xf78c6c'
+    green:   '0x303030'
+    yellow:  '0x353535'
+    blue:    '0x787878'
+    magenta: '0xeeffff'
+    cyan:    '0xff5370'
+    white:   '0xffffff'
+  #colors:
+  #  # Default colors
+  #  primary:
+  #    background: '0x000000'
+  #    foreground: '0xffffff'
+  #
+  #  # Normal colors
+  #  normal:
+  #    black:   '0x000000'
+  #    red:     '0xff0000'
+  #    green:   '0x00ff00'
+  #    yellow:  '0xffff00'
+  #    blue:    '0x0000ff'
+  #    magenta: '0xff00ff'
+  #    cyan:    '0x00ffff'
+  #    white:   '0xffffff'
+  #
+  #  # Bright colors
+  #  bright:
+  #    black:   '0x000000'
+  #    red:     '0xff0000'
+  #    green:   '0x00ff00'
+  #    yellow:  '0xffff00'
+  #    blue:    '0x0000ff'
+  #    magenta: '0xff00ff'
+  #    cyan:    '0x00ffff'
+  #    white:   '0xffffff'
