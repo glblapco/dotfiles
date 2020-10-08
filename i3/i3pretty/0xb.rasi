@@ -22,10 +22,10 @@
     alternate-normal-foreground: @foreground;
     normal-background:           rgba ( 39, 40, 34, 0 % );
     lightfg:                     rgba ( 88, 104, 117, 100 % );
-    selected-normal-background:  #1c1c1c;
-    border-color:                #1c1c1c;
+    selected-normal-background:  #222222;
+    border-color:                #222222;
     spacing:                     2;
-    separatorcolor:              #1c1c1c;
+    separatorcolor:              #222222;
     urgent-background:           rgba ( 39, 40, 34, 0 % );
     selected-urgent-background:  rgba ( 249, 38, 114, 100 % );
     alternate-urgent-foreground: @urgent-foreground;
@@ -103,7 +103,7 @@
     width:        4px ;
     border:       0;
     handle-width: 8px ;
-    handle-color: #1c1c1c;
+    handle-color: #222222;
     padding:      0;
 }
 #mode-switcher {

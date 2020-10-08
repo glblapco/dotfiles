@@ -26,6 +26,9 @@ font pango:Terminus 8
 # X core fonts rendering does not support right-to-left and this being a bitmap
 # font, it doesn’t scale on retina/hidpi displays.
 
+exec --no-startup-id xsetroot -solid "#111111"
+exec --no-startup-id pulseaudio
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -76,7 +79,7 @@ bindsym $mod+v split v
 for_window [class="Firefox"] border pixel 2
 #for_window [class=".*"] resize set width 43 ppt
 
-client.focused          #1c1c1c #1c1c1c #FFFFFF #1c1c1c   #1c1c1c
+client.focused          #222222 #222222 #ffffff #222222   #222222
 client.focused_inactive #111111 #111111 #888888 #111111   #111111
 client.unfocused        #111111 #111111 #888888 #111111   #111111
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
@@ -193,7 +196,7 @@ bindsym $mod+r mode "resize"
 bar {
         status_command py3status
         colors {
-          focused_workspace  #1c1c1c #1c1c1c #FFFFFF
+          focused_workspace  #222222 #222222 #FFFFFF
           active_workspace   #000000 #000000 #888888
           inactive_workspace #000000 #000000 #888888
           urgent_workspace   #2f343a #900000 #ffffff
