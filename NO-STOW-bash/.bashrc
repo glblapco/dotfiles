@@ -37,7 +37,7 @@ fi
 
 # set a fancy prompt (non-color, unless we know we "want" color)
 case "$TERM" in
-    xterm-color|*-256color) color_prompt=no;;
+    xterm-color|*-256color) color_prompt=yes;;
 esac
 
 # uncomment for a colored prompt, if the terminal has the capability; turned
@@ -50,14 +50,14 @@ if [ -n "$force_color_prompt" ]; then
 	# We have color support; assume it's compliant with Ecma-48
 	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
 	# a case would tend to support setf rather than setaf.)
-	color_prompt=no
+	color_prompt=yes
     else
 	color_prompt=
     fi
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='\[\033[01;32m\]\W\[\033[00m\]: '
+    PS1='\[\033[01;37m\]\W\[\033[00m\]: '
 else
     PS1='\W\[\033[00m\]: '
 fi
@@ -92,8 +92,6 @@ fi
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
-alias python='python3'
-alias pip='pip3'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
