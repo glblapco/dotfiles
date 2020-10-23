@@ -2,6 +2,8 @@
 -- Default awesome theme --
 ---------------------------
 
+--/usr/share/awesome/themes/default
+
 local theme_assets = require("beautiful.theme_assets")
 local xresources = require("beautiful.xresources")
 local dpi = xresources.apply_dpi
@@ -11,7 +13,7 @@ local themes_path = gfs.get_themes_dir()
 
 local theme = {}
 
-theme.font          = "Terminus 8"
+theme.font          = "sans 8"
 
 theme.bg_normal     = "#000000"
 theme.bg_focus      = "#222222"
@@ -19,17 +21,16 @@ theme.bg_urgent     = "#ff0000"
 theme.bg_minimize   = "#444444"
 theme.bg_systray    = theme.bg_normal
 
-theme.fg_normal     = "#ffffff"
+theme.fg_normal     = "#aaaaaa"
 theme.fg_focus      = "#ffffff"
 theme.fg_urgent     = "#ffffff"
 theme.fg_minimize   = "#ffffff"
 
 theme.useless_gap   = dpi(0)
 theme.border_width  = dpi(1)
-theme.border_normal = "#111111"
-theme.border_focus  = "#222222"
+theme.border_normal = "#000000"
+theme.border_focus  = "#ff0000"
 theme.border_marked = "#91231c"
-theme.tasklist_disable_icon = true
 
 -- There are other variable sets
 -- overriding the default one when
@@ -62,7 +63,7 @@ theme.taglist_squares_unsel = theme_assets.taglist_squares_unsel(
 -- Variables set for theming the menu:
 -- menu_[bg|fg]_[normal|focus]
 -- menu_[border_color|border_width]
-theme.menu_submenu_icon = themes_path.."default/submenu.png"
+--theme.menu_submenu_icon = themes_path.."default/submenu.png"
 theme.menu_height = dpi(15)
 theme.menu_width  = dpi(100)
 
@@ -117,6 +118,7 @@ theme.layout_cornernw = themes_path.."default/layouts/cornernww.png"
 theme.layout_cornerne = themes_path.."default/layouts/cornernew.png"
 theme.layout_cornersw = themes_path.."default/layouts/cornersww.png"
 theme.layout_cornerse = themes_path.."default/layouts/cornersew.png"
+theme.tasklist_disable_icon = true
 
 -- Generate Awesome icon:
 theme.awesome_icon = theme_assets.awesome_icon(

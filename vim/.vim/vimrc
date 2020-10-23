@@ -8,15 +8,15 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'junegunn/goyo.vim'
 
-Plugin 'vim-scripts/c.vim'
-
-Plugin 'pangloss/vim-javascript'
-
-Plugin 'sirtaj/vim-openscad'
-
-Plugin 'fatih/vim-go'
-
 Plugin 'miyakogi/conoline.vim'
+
+Plugin 'tpope/vim-fugitive'
+
+Plugin 'godlygeek/tabular'
+
+Plugin 'plasticboy/vim-markdown'
+
+Plugin 'Gavinok/vim-troff'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -34,6 +34,30 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set number
-set cc=80
+"set cc=80
 highlight LineNr ctermfg=yellow
 highlight ColorColumn ctermbg=red
+
+
+" Preferences for various file formats
+autocmd FileType c setlocal noet ts=8 sw=8 tw=80
+autocmd FileType h setlocal noet ts=8 sw=8 tw=80
+autocmd FileType cpp setlocal noet ts=8 sw=8 tw=80
+autocmd FileType s setlocal noet ts=8 sw=8
+autocmd FileType go setlocal noet ts=4 sw=4
+autocmd FileType hy setlocal filetype=lisp
+autocmd FileType sh setlocal noet ts=4 sw=4
+autocmd BufRead,BufNewFile *.js setlocal et ts=2 sw=2
+autocmd FileType html setlocal et ts=2 sw=2
+autocmd FileType htmldjango setlocal et ts=2 sw=2
+autocmd FileType ruby setlocal et ts=2 sw=2
+autocmd FileType scss setlocal et ts=2 sw=2
+autocmd FileType yaml setlocal et ts=2 sw=2
+autocmd FileType markdown setlocal tw=80 et ts=2 sw=2
+autocmd FileType text setlocal tw=80
+autocmd FileType meson setlocal noet ts=2 sw=2
+autocmd FileType bzl setlocal et ts=2 sw=2
+autocmd FileType typescript setlocal et ts=2 sw=2
+autocmd FileType python setlocal et ts=4 sw=4
+autocmd BufNewFile,BufRead *.ms set syntax=python ts=4 sw=4 noet
+autocmd FileType tex hi Error ctermbg=NONE
