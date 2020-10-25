@@ -16,15 +16,20 @@ Plugin 'godlygeek/tabular'
 
 Plugin 'plasticboy/vim-markdown'
 
+Plugin 'mattn/emmet-vim'
+
 Plugin 'Gavinok/vim-troff'
+
+Plugin 'cloudhead/shady.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 " Put your non-Plugin stuff after this line
 
+autocmd Filetype rmd map <F5> :!echo<space>"require(rmarkdown);<space>render('<c-r>%')"<space>\|<space>R<space>--vanilla<enter>
 syntax on
-colorscheme elflord
+colorscheme shady
 set wildmenu
 set incsearch
 set confirm
@@ -37,7 +42,7 @@ set number
 "set cc=80
 highlight LineNr ctermfg=yellow
 highlight ColorColumn ctermbg=red
-
+"hi Statement ctermfg=magenta
 
 " Preferences for various file formats
 autocmd FileType c setlocal noet ts=8 sw=8 tw=80
