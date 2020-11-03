@@ -14,7 +14,7 @@ Plugin 'tpope/vim-fugitive'
 
 Plugin 'godlygeek/tabular'
 
-Plugin 'plasticboy/vim-markdown'
+"Plugin 'plasticboy/vim-markdown'
 
 Plugin 'mattn/emmet-vim'
 
@@ -27,9 +27,9 @@ filetype plugin indent on    " required
 
 " Put your non-Plugin stuff after this line
 
-autocmd Filetype rmd map <F5> :!echo<space>"require(rmarkdown);<space>render('<c-r>%')"<space>\|<space>R<space>--vanilla<enter>
 syntax on
 colorscheme shady
+set list listchars=tab:\·\ ,space:·
 set wildmenu
 set incsearch
 set confirm

@@ -26,8 +26,8 @@ theme.fg_minimize   = "#ffffff"
 
 theme.useless_gap   = dpi(0)
 theme.border_width  = dpi(1)
-theme.border_normal = "#555555"
-theme.border_focus  = "#222222"
+theme.border_normal = "#000000"
+theme.border_focus  = "#000000"
 theme.border_marked = "#91231c"
 theme.tasklist_disable_icon = true
 
