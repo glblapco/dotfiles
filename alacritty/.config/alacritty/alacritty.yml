@@ -10,20 +10,17 @@ font:
   # The normal (roman) font face to use.
   normal:
     family: Terminus
-    # Style can be specified to pick a specific face.
-    # style: Regular
+    style: Regular
 
   # The bold font face
   bold:
     family: Terminus
-    # Style can be specified to pick a specific face.
-    # style: Bold
+    style: Bold
 
   # The italic font face
   italic:
     family: Terminus
-    # Style can be specified to pick a specific face.
-    # style: Italic
+    style: Italic
 
   # Point size of the font
   size: 8

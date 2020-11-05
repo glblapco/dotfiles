@@ -22,10 +22,10 @@
     alternate-normal-foreground: @foreground;
     normal-background:           rgba ( 39, 40, 34, 0 % );
     lightfg:                     rgba ( 88, 104, 117, 100 % );
-    selected-normal-background:  #4a4a4a4a;
+    selected-normal-background:  #353535;
     border-color:                @foreground;
     spacing:                     2;
-    separatorcolor:              #4a4a4a4a;
+    separatorcolor:              #353535;
     urgent-background:           rgba ( 39, 40, 34, 0 % );
     selected-urgent-background:  rgba ( 249, 38, 114, 100 % );
     alternate-urgent-foreground: @urgent-foreground;
@@ -36,7 +36,7 @@
 }
 #window {
     background-color: @background;
-    border:           2;
+    border:           1;
     padding:          5;
 }
 #mainbox {

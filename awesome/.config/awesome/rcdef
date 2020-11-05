@@ -52,7 +52,7 @@ beautiful.init("/home/biel/.config/awesome/themes/default/theme.lua")
 
 
 -- This is used later as the default terminal and editor to run.
-terminal = "xterm"
+terminal = "alacritty"
 editor = os.getenv("EDITOR") or "vim"
 editor_cmd = terminal .. " -e " .. editor
 
@@ -201,7 +201,7 @@ awful.screen.connect_for_each_screen(function(s)
     }
 
     -- Create the wibox
-    s.mywibox = awful.wibar({ position = "top", screen = s })
+    s.mywibox = awful.wibar({ position = "bottom", screen = s })
 
     -- Add widgets to the wibox
     s.mywibox:setup {
@@ -212,12 +212,13 @@ awful.screen.connect_for_each_screen(function(s)
             s.mytaglist,
             s.mypromptbox,
         },
-        s.mytasklist, -- Middle widget
+            none,  -- Middle widget
+            --s.mytasklist,
         { -- Right widgets
             layout = wibox.layout.fixed.horizontal,
+            mytextclock,
            -- mykeyboardlayout,
             require("battery-widget") {},
-            mytextclock,
             wibox.widget.systray(),
          --   s.mylayoutbox,
 
@@ -501,7 +502,7 @@ awful.rules.rules = {
 
     -- Add titlebars to normal clients and dialogs
     { rule_any = {type = { "normal", "dialog" }
-      }, properties = { titlebars_enabled = false }
+      }, properties = { titlebars_enabled = true }
     },
 
     -- Set Firefox to always map on the tag named "2" on screen 1.
@@ -539,7 +540,14 @@ client.connect_signal("request::titlebars", function(c)
         end)
     )
 
-    awful.titlebar(c) : setup {
+    local top_titlebar = awful.titlebar(c, {
+      height    = 16,
+      bg_normal = '#575757',
+      bg_focus  = '#000000',
+      border_focus = "#333333",
+      border_normal = "#575757",
+    })
+    top_titlebar : setup {
         { -- Left
             awful.titlebar.widget.iconwidget(c),
             buttons = buttons,
@@ -547,17 +555,18 @@ client.connect_signal("request::titlebars", function(c)
         },
         { -- Middle
             { -- Title
-                align  = "center",
+                --align  = "center",
                 widget = awful.titlebar.widget.titlewidget(c)
             },
             buttons = buttons,
             layout  = wibox.layout.flex.horizontal
         },
         { -- Right
-            awful.titlebar.widget.floatingbutton (c),
+          --  awful.titlebar.widget.floatingbutton (c),
+            awful.titlebar.widget.minimizebutton(c),
             awful.titlebar.widget.maximizedbutton(c),
-            awful.titlebar.widget.stickybutton   (c),
-            awful.titlebar.widget.ontopbutton    (c),
+           -- awful.titlebar.widget.stickybutton   (c),
+           -- awful.titlebar.widget.ontopbutton    (c),
             awful.titlebar.widget.closebutton    (c),
             layout = wibox.layout.fixed.horizontal()
         },
