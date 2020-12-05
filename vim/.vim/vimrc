@@ -12,15 +12,15 @@ Plugin 'miyakogi/conoline.vim'
 
 Plugin 'tpope/vim-fugitive'
 
-Plugin 'godlygeek/tabular'
+"Plugin 'godlygeek/tabular'
 
 "Plugin 'plasticboy/vim-markdown'
 
 Plugin 'mattn/emmet-vim'
 
-Plugin 'Gavinok/vim-troff'
+"Plugin 'Gavinok/vim-troff'
 
-Plugin 'cloudhead/shady.vim'
+"Plugin 'cloudhead/shady.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -28,8 +28,8 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 syntax on
-colorscheme shady
-set list listchars=tab:\·\ ,space:·
+colorscheme elflord
+"set list listchars=tab:\·\ ,space:·
 set wildmenu
 set incsearch
 set confirm
