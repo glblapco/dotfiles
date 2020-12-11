@@ -4,6 +4,7 @@
  */
 
 * {
+    font: "Inconsolata 12";
     selected-normal-foreground:  #FFFFFF;
     foreground:                  #888888;
     normal-foreground:           @foreground;

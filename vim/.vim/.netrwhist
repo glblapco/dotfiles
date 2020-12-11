@@ -1,4 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/biel/projects/os/blos-live'
-let g:netrw_dirhist_2='/home/biel/Downloads/lfs-scripts/rootfs/root'
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/biel/projects/ugly.cat/blrepo'
+let g:netrw_dirhist_3='/home/biel/projects/simple/pages'
+let g:netrw_dirhist_2='/home/biel/projects/ugly.cat/blrepo/rsync'
+let g:netrw_dirhist_1='/home/biel/projects/simple/templates'
