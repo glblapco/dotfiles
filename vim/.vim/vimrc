@@ -1,4 +1,5 @@
 set nocompatible              " be iMproved, required
+set nomodeline
 filetype off                  " required
 
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -25,44 +26,16 @@ Plugin 'mattn/emmet-vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-" Put your non-Plugin stuff after this line
-
-syntax on
-colorscheme elflord
-"set list listchars=tab:\·\ ,space:·
-set wildmenu
-set incsearch
-set confirm
+set nowrap
+set ruler
+"set laststatus=2
+set list
+set listchars=
+set listchars+=precedes:<,extends:>
+set listchars+=tab:⇥\ 
+set sidescroll=5
+set scrolloff=5
+set cc=80
 set title
-set expandtab
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
-set number
-"set cc=80
-highlight LineNr ctermfg=yellow
-highlight ColorColumn ctermbg=red
-"hi Statement ctermfg=magenta
-
-" Preferences for various file formats
-autocmd FileType c setlocal noet ts=8 sw=8 tw=80
-autocmd FileType h setlocal noet ts=8 sw=8 tw=80
-autocmd FileType cpp setlocal noet ts=8 sw=8 tw=80
-autocmd FileType s setlocal noet ts=8 sw=8
-autocmd FileType go setlocal noet ts=4 sw=4
-autocmd FileType hy setlocal filetype=lisp
-autocmd FileType sh setlocal noet ts=4 sw=4
-autocmd BufRead,BufNewFile *.js setlocal et ts=2 sw=2
-autocmd FileType html setlocal et ts=2 sw=2
-autocmd FileType htmldjango setlocal et ts=2 sw=2
-autocmd FileType ruby setlocal et ts=2 sw=2
-autocmd FileType scss setlocal et ts=2 sw=2
-autocmd FileType yaml setlocal et ts=2 sw=2
-autocmd FileType markdown setlocal tw=80 et ts=2 sw=2
-autocmd FileType text setlocal tw=80
-autocmd FileType meson setlocal noet ts=2 sw=2
-autocmd FileType bzl setlocal et ts=2 sw=2
-autocmd FileType typescript setlocal et ts=2 sw=2
-autocmd FileType python setlocal et ts=4 sw=4
-autocmd BufNewFile,BufRead *.ms set syntax=python ts=4 sw=4 noet
-autocmd FileType tex hi Error ctermbg=NONE
+colorscheme elflord
+syntax on

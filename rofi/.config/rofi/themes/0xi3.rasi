@@ -4,6 +4,7 @@
  */
 
 * {
+    font: "Terminus 12";
     selected-normal-foreground:  White;
     foreground:                  #888888;
     normal-foreground:           @foreground;

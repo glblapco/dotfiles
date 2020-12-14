@@ -41,7 +41,7 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec rofi -show run -theme /home/biel/.config/rofi/themes/0xb.rasi
+bindsym $mod+d exec rofi -show run -theme /home/biel/.config/rofi/themes/0xi3.rasi
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -81,20 +81,20 @@ bindsym $mod+v split v
 #for_window [class="Firefox"] border pixel 2
 #for_window [class=".*"] resize set width 43 ppt
 
-set $bg #000000
-set $bga #444444
-set $fg #ffffff
-set $fgi #888888
-set $fgu #222222
-set $unf #333333
-set $btf #575757
+#set $bg #000000
+#set $bga #444444
+#set $fg #ffffff
+#set $fgi #888888
+#set $fgu #222222
+#set $unf #333333
+#set $btf #575757
 #hide_edge_borders smart
 
 # class                 border  bg      text indicator child_border
-client.focused          $btf    $bg     $fg  $bga      $btf
-client.focused_inactive $unf    $unf    $fgi $bg       $unf 
-client.unfocused        $unf    $unf    $fgi $bg       $unf 
-
+#client.focused          $btf    $bg     $fg  $bga      $btf
+#client.focused_inactive $unf    $unf    $fgi $bg       $unf 
+#client.unfocused        $unf    $unf    $fgi $bg       $unf 
+#
 #default_border pixel 2
 #default_floating_border pixel 2
 
@@ -208,13 +208,13 @@ bindsym $mod+r mode "resize"
 bar {
         position top
         status_command py3status 
-        colors {
-          statusline $fg
-          background $bg
-          focused_background $bg 
-          focused_workspace $btf $bg $fg
-          active_workspace $bg $bg $fg
-          inactive_workspace $bg $bg $fgi
-        }
+#        colors {
+#          statusline $fg
+#          background $bg
+#          focused_background $bg 
+#          focused_workspace $btf $bg $fg
+#          active_workspace $bg $bg $fg
+#          inactive_workspace $bg $bg $fgi
+#        }
   
 }

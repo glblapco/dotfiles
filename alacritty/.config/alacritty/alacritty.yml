@@ -6,77 +6,86 @@ env:
   # `tput` command
   TERM: xterm-256color
 
+window:
+  dimensions:
+    columns: 100
+    lines: 30
+  padding:
+    x: 2
+    y: 2
+draw_bold_text_with_bright_colors: true
+
 font:
   # The normal (roman) font face to use.
   normal:
-    family: Inconsolata
+    family: Terminus
     style: Regular
 
   # The bold font face
   bold:
-    family: Inconsolata
+    family: Terminus
     style: Bold
 
   # The italic font face
   italic:
-    family: Inconsolata
+    family: Terminus
     style: Italic
 
   # Point size of the font
-  size: 9
+  size: 8
 
   #urxvt colorscheme
 colors:
-  # Default colors
+  #  # Default colors
+  #  primary:
+  #    background: '0x000000'
+  #    foreground: '0xffffff'
+  #
+  #  # Normal colors
+  #  normal:
+  #    black:   '0x303030'
+  #    red:     '0xc10023'
+  #    green:   '0xa83334'
+  #    yellow:  '0xb51d2c'
+  #    blue:    '0x8c4b46'
+  #    magenta: '0x7d534f'
+  #    cyan:    '0x9a413d'
+  #    white:   '0xc6c6c6'
+  #
+  #  # Bright colors
+  #  bright:
+  #    black:   '0x5e5e5e'
+  #    red:     '0xff8781'
+  #    green:   '0xffa095'
+  #    yellow:  '0xff948b'
+  #    blue:    '0xfeb2aa'
+  #    magenta: '0xebbbb5'
+  #    cyan:    '0xffaaa0'
+  #    white:   '0xffffff'
+
+ # Default colors
   primary:
     background: '0x000000'
     foreground: '0xffffff'
-
+  
   # Normal colors
   normal:
-    black:   '0x303030'
-    red:     '0xc10023'
-    green:   '0xa83334'
-    yellow:  '0xb51d2c'
-    blue:    '0x8c4b46'
-    magenta: '0x7d534f'
-    cyan:    '0x9a413d'
-    white:   '0xc6c6c6'
-
+    black:   '0x000000'
+    red:     '0xff0000'
+    green:   '0x00ff00'
+    yellow:  '0xffff00'
+    blue:    '0x0000ff'
+    magenta: '0xff00ff'
+    cyan:    '0x00ffff'
+    white:   '0xffffff'
+  
   # Bright colors
   bright:
-    black:   '0x5e5e5e'
-    red:     '0xff8781'
-    green:   '0xffa095'
-    yellow:  '0xff948b'
-    blue:    '0xfeb2aa'
-    magenta: '0xebbbb5'
-    cyan:    '0xffaaa0'
+    black:   '0x000000'
+    red:     '0xff0000'
+    green:   '0x00ff00'
+    yellow:  '0xffff00'
+    blue:    '0x0000ff'
+    magenta: '0xff00ff'
+    cyan:    '0x00ffff'
     white:   '0xffffff'
-
-  #   # Default colors
-  #   primary:
-  #     background: '0x000000'
-  #     foreground: '0xffffff'
-  # 
-  #   # Normal colors
-  #   normal:
-  #     black:   '0x000000'
-  #     red:     '0xff0000'
-  #     green:   '0x00ff00'
-  #     yellow:  '0xffff00'
-  #     blue:    '0x0000ff'
-  #     magenta: '0xff00ff'
-  #     cyan:    '0x00ffff'
-  #     white:   '0xffffff'
-  # 
-  #   # Bright colors
-  #   bright:
-  #     black:   '0x000000'
-  #     red:     '0xff0000'
-  #     green:   '0x00ff00'
-  #     yellow:  '0xffff00'
-  #     blue:    '0x0000ff'
-  #     magenta: '0xff00ff'
-  #     cyan:    '0x00ffff'
-  #     white:   '0xffffff'
