@@ -2,8 +2,6 @@
 -- found (e.g. lgi). If LuaRocks is not installed, do nothing.
 pcall(require, "luarocks.loader")
 
-local APW = require("apw/widget")
-
 -- Standard awesome library
 local gears = require("gears")
 local awful = require("awful")
@@ -14,6 +12,8 @@ local wibox = require("wibox")
 local beautiful = require("beautiful")
 -- Notification library
 local naughty = require("naughty")
+local APW = require("apw/widget")
+--local battery_widget = require("battery-widget")
 local menubar = require("menubar")
 local hotkeys_popup = require("awful.hotkeys_popup")
 -- Enable hotkeys help widget for VIM and other apps
@@ -50,9 +50,8 @@ end
 --beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
 beautiful.init("/home/biel/.config/awesome/themes/default/theme.lua")
 
-
 -- This is used later as the default terminal and editor to run.
-terminal = "uxterm"
+terminal = "alacritty"
 editor = os.getenv("EDITOR") or "vim"
 editor_cmd = terminal .. " -e " .. editor
 
@@ -111,7 +110,7 @@ mykeyboardlayout = awful.widget.keyboardlayout()
 
 -- {{{ Wibar
 -- Create a textclock widget
-mytextclock = wibox.widget.textclock('| <span color="#ffffff">%a %d.%m.%Y %H:%M %Z</span>', 5)
+mytextclock = wibox.widget.textclock('| <span color="#ffffff">%a %d.%m.%Y %H:%M %Z</span> ', 5)
 
 -- Create a wibox for each screen and add it
 local taglist_buttons = gears.table.join(
@@ -153,25 +152,24 @@ local tasklist_buttons = gears.table.join(
                                               awful.client.focus.byidx(-1)
                                           end))
 
---local function set_wallpaper(s)
---    -- Wallpaper
---    if beautiful.wallpaper then
---        local wallpaper = beautiful.wallpaper
---        -- If wallpaper is a function, call it with the screen
---        if type(wallpaper) == "function" then
---            wallpaper = wallpaper(s)
---        end
---        gears.wallpaper.maximized(wallpaper, s, true)
---    end
---end
+local function set_wallpaper(s)
+    -- Wallpaper
+    if beautiful.wallpaper then
+        local wallpaper = beautiful.wallpaper
+        -- If wallpaper is a function, call it with the screen
+        if type(wallpaper) == "function" then
+            wallpaper = wallpaper(s)
+        end
+        gears.wallpaper.maximized(wallpaper, s, true)
+    end
+end
 
 -- Re-set wallpaper when a screen's geometry changes (e.g. different resolution)
---screen.connect_signal("property::geometry", set_wallpaper)
+screen.connect_signal("property::geometry", set_wallpaper)
 
-gears.wallpaper.set("#000000")
 awful.screen.connect_for_each_screen(function(s)
     -- Wallpaper
-    --set_wallpaper(s)
+--    set_wallpaper(s)
 
     -- Each screen has its own tag table.
     awful.tag({ "1", "2", "3", "4", "5", "6", "7", "8", "9" }, s, awful.layout.layouts[1])
@@ -190,14 +188,14 @@ awful.screen.connect_for_each_screen(function(s)
     s.mytaglist = awful.widget.taglist {
         screen  = s,
         filter  = awful.widget.taglist.filter.all,
-        buttons = taglist_buttons,
-      }
+        buttons = taglist_buttons
+    }
 
     -- Create a tasklist widget
     s.mytasklist = awful.widget.tasklist {
         screen  = s,
         filter  = awful.widget.tasklist.filter.currenttags,
-        buttons = tasklist_buttons,
+        buttons = tasklist_buttons
     }
 
     -- Create the wibox
@@ -208,19 +206,18 @@ awful.screen.connect_for_each_screen(function(s)
         layout = wibox.layout.align.horizontal,
         { -- Left widgets
             layout = wibox.layout.fixed.horizontal,
-          --  mylauncher,
+            mylauncher,
             s.mytaglist,
             s.mypromptbox,
         },
         s.mytasklist, -- Middle widget
         { -- Right widgets
             layout = wibox.layout.fixed.horizontal,
-           -- mykeyboardlayout,
-            require("battery-widget") {},
+ --           mykeyboardlayout,
             mytextclock,
+            require("battery-widget") {},
+            --s.mylayoutbox,
             wibox.widget.systray(),
-         --   s.mylayoutbox,
-
         },
     }
 end)
@@ -335,7 +332,7 @@ globalkeys = gears.table.join(
               end,
               {description = "lua execute prompt", group = "awesome"}),
     -- Menubar
-    awful.key({ modkey }, "d", function() menubar.show() end,
+    awful.key({ modkey }, "p", function() menubar.show() end,
               {description = "show the menubar", group = "launcher"})
 )
 
@@ -463,8 +460,7 @@ awful.rules.rules = {
                      keys = clientkeys,
                      buttons = clientbuttons,
                      screen = awful.screen.preferred,
-                     placement = awful.placement.no_overlap+awful.placement.no_offscreen,
-                     size_hints_honor = false
+                     placement = awful.placement.no_overlap+awful.placement.no_offscreen
      }
     },
 
@@ -501,7 +497,7 @@ awful.rules.rules = {
 
     -- Add titlebars to normal clients and dialogs
     { rule_any = {type = { "normal", "dialog" }
-      }, properties = { titlebars_enabled = false }
+      }, properties = { titlebars_enabled = true }
     },
 
     -- Set Firefox to always map on the tag named "2" on screen 1.

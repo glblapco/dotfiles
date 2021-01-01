@@ -4,6 +4,7 @@
  */
 
 * {
+    font: "Terminus 12";
     selected-normal-foreground:  #FFFFFF;
     foreground:                  #888888;
     normal-foreground:           @foreground;
@@ -18,12 +19,12 @@
     selected-active-foreground:  rgba ( 166, 226, 42, 100 % );
     alternate-active-background: rgba ( 39, 40, 34, 0 % );
     background:                  rgba ( 0, 0, 0, 100 % );
-    bordercolor:                 rgba ( 34, 34, 34, 100 % );
+    bordercolor:                 #353535;
     alternate-normal-foreground: @foreground;
     normal-background:           rgba ( 39, 40, 34, 0 % );
     lightfg:                     rgba ( 88, 104, 117, 100 % );
     selected-normal-background:  #353535;
-    border-color:                @foreground;
+    border-color:                #353535;
     spacing:                     2;
     separatorcolor:              #353535;
     urgent-background:           rgba ( 39, 40, 34, 0 % );

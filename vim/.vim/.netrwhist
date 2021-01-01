@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/biel/projects/w/templates'
+let g:netrw_dirhist_2='/home/biel/projects/bin'
+let g:netrw_dirhist_1='/home/biel/projects/w/templates'
+let g:netrw_dirhist_0='/home/biel/.vim'
+let g:netrw_dirhist_9='/home/biel/projects/b/static'
+let g:netrw_dirhist_8='/home/biel/projects/b/pages/blog'
+let g:netrw_dirhist_7='/home/biel/projects/ugly.cat/blrepo/sources/linux'
+let g:netrw_dirhist_6='/home/biel/Downloads/blos/docs/images'
+let g:netrw_dirhist_5='/home/biel/Downloads/yos/boot/init'
+let g:netrw_dirhist_4='/home/biel/projects/lb/blog'

@@ -11,25 +11,24 @@ local themes_path = gfs.get_themes_dir()
 
 local theme = {}
 
-theme.font          = "Terminus 8"
+theme.font          = "DejaVu Sans Mono 8"
 
-theme.bg_normal     = "#000000"
-theme.bg_focus      = "#222222"
+theme.bg_normal     = "#222222"
+theme.bg_focus      = "#535d6c"
 theme.bg_urgent     = "#ff0000"
 theme.bg_minimize   = "#444444"
 theme.bg_systray    = theme.bg_normal
 
-theme.fg_normal     = "#777777"
+theme.fg_normal     = "#aaaaaa"
 theme.fg_focus      = "#ffffff"
 theme.fg_urgent     = "#ffffff"
 theme.fg_minimize   = "#ffffff"
 
 theme.useless_gap   = dpi(0)
 theme.border_width  = dpi(1)
-theme.border_normal = "#111111"
-theme.border_focus  = "#222222"
+theme.border_normal = "#000000"
+theme.border_focus  = "#535d6c"
 theme.border_marked = "#91231c"
---theme.tasklist_disable_icon = true
 
 -- There are other variable sets
 -- overriding the default one when
