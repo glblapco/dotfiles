@@ -19,8 +19,14 @@ Plugin 'plasticboy/vim-markdown'
 
 Plugin 'mattn/emmet-vim'
 
+Plugin 'antoyo/vim-licenses'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+let g:licenses_copyright_holders_name = 'Biel A. P. - 0xbiel <biel@ugly.cat>'
+let g:licenses_authors_name = 'Biel A. P. - 0xbiel <biel@ugly.cat>'
+
 set list
 set nowrap
 set ruler

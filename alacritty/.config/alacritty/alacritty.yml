@@ -19,7 +19,7 @@ font:
   # The normal (roman) font face to use.
   normal:
     family: DejaVu Sans Mono
-    style: Regular
+    style: Bold
 
   # The bold font face
   bold:
@@ -32,38 +32,38 @@ font:
     style: Italic
 
   # Point size of the font
-  size: 9
+  size: 8
 
   #urxvt colorscheme
 colors:
-  #  # Default colors
-  #  primary:
-  #    background: '0x000000'
-  #    foreground: '0xffffff'
-  #
-  #  # Normal colors
-  #  normal:
-  #    black:   '0x303030'
-  #    red:     '0xc10023'
-  #    green:   '0xa83334'
-  #    yellow:  '0xb51d2c'
-  #    blue:    '0x8c4b46'
-  #    magenta: '0x7d534f'
-  #    cyan:    '0x9a413d'
-  #    white:   '0xc6c6c6'
-  #
-  #  # Bright colors
-  #  bright:
-  #    black:   '0x5e5e5e'
-  #    red:     '0xff8781'
-  #    green:   '0xffa095'
-  #    yellow:  '0xff948b'
-  #    blue:    '0xfeb2aa'
-  #    magenta: '0xebbbb5'
-  #    cyan:    '0xffaaa0'
-  #    white:   '0xffffff'
+  # Default colors
+  # primary:
+  #   background: '0xf1efee'
+  #   foreground: '0x68615e'
 
- # Default colors
+  # # Normal colors
+  # normal:
+  #   black:   '0x1b1918'
+  #   red:     '0xf22c40'
+  #   green:   '0x5ab738'
+  #   yellow:  '0xd5911a'
+  #   blue:    '0x407ee7'
+  #   magenta: '0x6666ea'
+  #   cyan:    '0x00ad9c'
+  #   white:   '0xa8a19f'
+
+  # # Bright colors
+  # bright:
+  #   black:   '0x766e6b'
+  #   red:     '0xf22c40'
+  #   green:   '0x5ab738'
+  #   yellow:  '0xd5911a'
+  #   blue:    '0x407ee7'
+  #   magenta: '0x6666ea'
+  #   cyan:    '0x00ad9c'
+  #   white:   '0xf1efee'
+
+  # Default colors
   primary:
     background: '0x000000'
     foreground: '0xffffff'
@@ -78,7 +78,6 @@ colors:
     magenta: '0xff00ff'
     cyan:    '0x00ffff'
     white:   '0xffffff'
-  
   # Bright colors
   bright:
     black:   '0x000000'
