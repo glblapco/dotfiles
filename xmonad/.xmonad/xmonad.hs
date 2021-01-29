@@ -10,9 +10,9 @@ import Graphics.X11.ExtraTypes.XF86
 
 main = do
 xmproc <- spawnPipe "xmobar"
-xmonad $ defaultConfig
-  { terminal = "alacritty"
-  , manageHook = manageDocks <+> manageHook defaultConfig
+xmonad $ def
+  { terminal = "xterm"
+  , manageHook = manageDocks <+> manageHook def
   , modMask = mod4Mask
   , workspaces    = ["1","2","3","4","5","6","7","8","9"]
   }

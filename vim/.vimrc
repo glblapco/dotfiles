@@ -15,24 +15,18 @@ Plugin 'tpope/vim-fugitive'
 
 "Plugin 'godlygeek/tabular'
 
-"Plugin 'plasticboy/vim-markdown'
+Plugin 'plasticboy/vim-markdown'
 
 Plugin 'mattn/emmet-vim'
 
-"Plugin 'Gavinok/vim-troff'
-
-"Plugin 'cloudhead/shady.vim'
-
-"Plugin 'tpope/vim-vividchalk'
-
-"Plugin 'Lokaltog/vim-distinguished'
-
-"Plugin 'bignimbus/pop-punk.vim'
-
-"Plugin 'romainl/Apprentice'
+Plugin 'antoyo/vim-licenses'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+let g:licenses_copyright_holders_name = 'Biel A. P. - 0xbiel <biel@ugly.cat>'
+let g:licenses_authors_name = 'Biel A. P. - 0xbiel <biel@ugly.cat>'
+
 set list
 set nowrap
 set ruler
@@ -48,7 +42,7 @@ set sidescroll=5
 set scrolloff=5
 set cc=80
 set title
-colorscheme elflord
+"colorscheme elflord
 syntax on
 set tabstop=2
 set shiftwidth=2
