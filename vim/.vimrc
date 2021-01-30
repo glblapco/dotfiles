@@ -9,13 +9,13 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'junegunn/goyo.vim'
 
-Plugin 'miyakogi/conoline.vim'
+"Plugin 'miyakogi/conoline.vim'
 
 Plugin 'tpope/vim-fugitive'
 
 "Plugin 'godlygeek/tabular'
 
-Plugin 'plasticboy/vim-markdown'
+"Plugin 'plasticboy/vim-markdown'
 
 Plugin 'mattn/emmet-vim'
 
