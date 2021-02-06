@@ -41,8 +41,8 @@ bindsym $mod+Return exec alacritty
 # kill focused window
 bindsym $mod+Shift+q kill
 
-bindsym $mod+d exec rofi -show run -theme /home/biel/.config/rofi/themes/0xdark.rasi
-#bindsym $mod+d exec rofi -show run -theme /home/biel/.config/rofi/themes/0xi3.rasi
+#bindsym $mod+d exec rofi -show run -theme /home/biel/.config/rofi/themes/0xdark.rasi
+bindsym $mod+d exec rofi -show run -theme /home/biel/.config/rofi/themes/0xi3.rasi
 
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
@@ -80,7 +80,6 @@ bindsym $mod+c split h
 bindsym $mod+v split v
 
 #border and shit
-#for_window [class="Firefox"] border pixel 2
 #for_window [class=".*"] resize set width 43 ppt
 
 set $bg #000000
@@ -93,12 +92,12 @@ set $btf #575757
 #hide_edge_borders smart
 
 # class                 border  bg      text indicator child_border
-client.focused          $btf    $bg     $fg  $bga      $btf
-client.focused_inactive $unf    $unf    $fgi $bg       $unf 
-client.unfocused        $unf    $unf    $fgi $bg       $unf 
+#client.focused          $btf    $bg     $fg  $bga      $btf
+#client.focused_inactive $unf    $unf    $fgi $bg       $unf 
+#client.unfocused        $unf    $unf    $fgi $bg       $unf 
 
-#default_border pixel 2
-#default_floating_border pixel 2
+default_border pixel 2
+default_floating_border pixel 2
 
 bindsym $mod+u border none
 bindsym $mod+y border pixel 2
@@ -108,6 +107,7 @@ bindsym $mod+n border normal
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute 0 toggle # mute mic
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
@@ -208,15 +208,14 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        position top
         status_command py3status
-        colors {
-          statusline $fg
-          background $bg
-          focused_background $bg 
-          focused_workspace $btf $bg $fg
-          active_workspace $bg $bg $fg
-          inactive_workspace $bg $bg $fgi
-        }
+#        colors {
+#          statusline $fg
+#          background $bg
+#          focused_background $bg 
+#          focused_workspace $btf $bg $fg
+#          active_workspace $bg $bg $fg
+#          inactive_workspace $bg $bg $fgi
+#        }
   
 }
