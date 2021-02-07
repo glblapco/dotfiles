@@ -1,0 +1,103 @@
+2021-02-01 12:51:34		New key binding (context "default"): meta2-1;5P => /bar scroll buflist * -100%
+2021-02-01 12:51:34		New key binding (context "default"): meta2-1;5Q => /bar scroll buflist * +100%
+2021-02-01 12:51:34		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2021-02-01 12:51:34		New key binding (context "default"): meta2-1;3Q => /bar scroll buflist * e
+2021-02-01 12:51:34		New key binding (context "default"): meta2-1;3P => /bar scroll buflist * b
+2021-02-01 12:51:34		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2021-02-01 12:51:34		New key binding (context "default"): meta-B => /buflist toggle
+2021-02-01 12:51:34		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2021-02-01 12:51:34		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2021-02-01 12:51:34		New key binding (context "default"): meta-meta2-12~ => /bar scroll buflist * e
+2021-02-01 12:51:34		New key binding (context "default"): meta-meta2-11~ => /bar scroll buflist * b
+2021-02-01 12:51:34		New key binding (context "default"): meta2-12^ => /bar scroll buflist * +100%
+2021-02-01 12:51:34		New key binding (context "default"): meta2-12~ => /bar scroll buflist * +100%
+2021-02-01 12:51:34		New key binding (context "default"): meta2-11^ => /bar scroll buflist * -100%
+2021-02-01 12:51:34		New key binding (context "default"): meta2-11~ => /bar scroll buflist * -100%
+2021-02-01 12:51:34		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2021-02-01 12:51:36	=!=	You can not write text in this buffer
+2021-02-01 12:52:07		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2021-02-06 19:11:58		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2021-02-06 19:12:47		Option changed: irc.server_default.nicks = "0xbiel"  (default: "")
+2021-02-06 19:13:21		irc: server added: freenode
+2021-02-06 19:13:33		Option changed: irc.server.freenode.nicks = "0xbiel"  (default if null: "0xbiel")
+2021-02-06 19:13:44		Option changed: irc.server.freenode.username = "Biel"  (default if null: "biel")
+2021-02-06 19:13:54		Option changed: irc.server.freenode.username = "0xbiel"  (default if null: "biel")
+2021-02-06 19:14:02	=!=	Error: option "irc.server.freenode.default.username" not found
+2021-02-06 19:14:13	=!=	Error: option "irc.server.freenode.username_default" not found
+2021-02-06 19:14:24		Option changed: irc.server.freenode.realname = "Biel"  (default if null: "")
+2021-02-06 19:14:31		Option changed: irc.server.freenode.autoconnect = on  (default if null: off)
+2021-02-06 19:15:18		Option changed: irc.server.freenode.command = ""/msg nickserv identify polastrini07"  (default if null: "")
+2021-02-06 19:15:42		Passphrase added
+2021-02-06 19:15:54		Secured data "freenode_password" set
+2021-02-06 19:15:54		Options saved to sec.conf
+2021-02-06 19:16:07		Option changed: irc.server.freenode.sasl_password = "${sec.data.freenode_password}"  (default if null: "")
+2021-02-06 19:16:26		Option changed: irc.server.freenode.sasl_username = "0xbiel"  (default if null: "")
+2021-02-06 19:16:37		Option changed: irc.server.freenode.sasl_password = "${sec.data.freenode_password}"  (default if null: "")
+2021-02-06 19:16:51		Option changed: irc.server.freenode.autojoin = "#merveilles"  (default if null: "")
+2021-02-06 19:17:16		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2021-02-06 19:18:00		Option changed: irc.server.freenode.nicks = "_0xbiel_, 0xbiel"  (default if null: "0xbiel")
+2021-02-06 19:19:51		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2021-02-06 19:24:59		Option changed: irc.server.freenode.nicks = "Oxbiel"  (default if null: "_0xbiel_,0xbiel")
+2021-02-06 19:25:49		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2021-02-06 19:31:17		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2021-02-06 19:35:58		Passphrase changed
+2021-02-06 19:35:58		Options saved to sec.conf
+2021-02-06 19:36:08		Secured data "freenode_password" set
+2021-02-06 19:36:08		Options saved to sec.conf
+2021-02-06 19:36:17		Option changed: irc.server.freenode.sasl_password = "${sec.data.freenode_password}"  (default if null: "")
+2021-02-06 19:37:33		Option changed: irc.server.freenode.sasl_username = "0xbiel"  (default if null: "")
+2021-02-06 19:37:44	=!=	Error: unknown command "/irc.server.freenode.sasl_password" (type /help for help)
+2021-02-06 19:37:53		Option changed: irc.server.freenode.sasl_password = "= "${sec.data.freenode_password}""  (default if null: "")
+2021-02-06 19:37:57		Options saved to sec.conf
+2021-02-06 19:37:57		Options saved to weechat.conf
+2021-02-06 19:37:57		Options saved to plugins.conf
+2021-02-06 19:37:57		Options saved to charset.conf
+2021-02-06 19:37:57		Options saved to logger.conf
+2021-02-06 19:37:57		Options saved to exec.conf
+2021-02-06 19:37:57		Options saved to trigger.conf
+2021-02-06 19:37:57		Options saved to alias.conf
+2021-02-06 19:37:57		Options saved to buflist.conf
+2021-02-06 19:37:57		Options saved to fifo.conf
+2021-02-06 19:37:57		Options saved to xfer.conf
+2021-02-06 19:37:57		Options saved to irc.conf
+2021-02-06 19:37:57		Options saved to relay.conf
+2021-02-06 19:37:57		Options saved to guile.conf
+2021-02-06 19:37:57		Options saved to python.conf
+2021-02-06 19:37:57		Options saved to lua.conf
+2021-02-06 19:37:57		Options saved to tcl.conf
+2021-02-06 19:37:57		Options saved to perl.conf
+2021-02-06 19:37:57		Options saved to script.conf
+2021-02-06 19:37:57		Options saved to fset.conf
+2021-02-07 10:01:24		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2021-02-07 10:04:10		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2021-02-07 10:04:15	=!=	irc: command "msg" must be executed on irc buffer (server, channel or private)
+2021-02-07 10:18:39		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2021-02-07 10:21:36		Option changed: irc.server.freenode.sasl_username = "0xbiel"  (default if null: "")
+2021-02-07 10:21:48		Option changed: irc.server.freenode.sasl_password = "polastrini07"  (default if null: "")
+2021-02-07 10:22:05		Option changed: irc.server.freenode.command = "/msg nickserv identify polastrini07"  (default if null: "")
+2021-02-07 10:22:14		Passphrase changed
+2021-02-07 10:22:14		Options saved to sec.conf
+2021-02-07 10:22:21		Secured data "freenode_password" set
+2021-02-07 10:22:21		Options saved to sec.conf
+2021-02-07 10:22:28		Option changed: irc.server.freenode.sasl_password = "${sec.data.freenode_password}"  (default if null: "")
+2021-02-07 10:22:50		Option changed: irc.server.freenode.command = "/msg nickserv identify ${sec.data.freenode_password}"  (default if null: "")
+2021-02-07 10:23:07		Options saved to sec.conf
+2021-02-07 10:23:07		Options saved to weechat.conf
+2021-02-07 10:23:07		Options saved to plugins.conf
+2021-02-07 10:23:07		Options saved to charset.conf
+2021-02-07 10:23:07		Options saved to logger.conf
+2021-02-07 10:23:07		Options saved to exec.conf
+2021-02-07 10:23:07		Options saved to trigger.conf
+2021-02-07 10:23:07		Options saved to alias.conf
+2021-02-07 10:23:07		Options saved to buflist.conf
+2021-02-07 10:23:07		Options saved to fifo.conf
+2021-02-07 10:23:07		Options saved to xfer.conf
+2021-02-07 10:23:07		Options saved to irc.conf
+2021-02-07 10:23:07		Options saved to relay.conf
+2021-02-07 10:23:07		Options saved to guile.conf
+2021-02-07 10:23:07		Options saved to python.conf
+2021-02-07 10:23:07		Options saved to lua.conf
+2021-02-07 10:23:07		Options saved to tcl.conf
+2021-02-07 10:23:07		Options saved to perl.conf
+2021-02-07 10:23:07		Options saved to script.conf
+2021-02-07 10:23:07		Options saved to fset.conf
