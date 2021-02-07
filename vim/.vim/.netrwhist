@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/biel/projects/w'
 let g:netrw_dirhist_6='/home/biel/dotfiles/vim/.vim/bundle/vim-licenses'
 let g:netrw_dirhist_5='/home/biel/dotfiles/vim/.vim/bundle'
 let g:netrw_dirhist_4='/home/biel/.weechat'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_1='/home/biel/projects/w/posts'
 let g:netrw_dirhist_0='/home/biel/projects/fun/golasm'
 let g:netrw_dirhist_9='/home/biel/projects/t/templates'
 let g:netrw_dirhist_8='/home/biel/projects/ugly.cat/blrepo/linux/files'
-let g:netrw_dirhist_7='/home/biel/projects/ugly.cat/blwm'
