@@ -4,7 +4,8 @@ filetype plugin on
 let g:licenses_copyright_holders_name = 'Biel A. P. - 0xbiel <biel@ugly.cat>'
 let g:licenses_authors_name = 'Biel A. P. - 0xbiel <biel@ugly.cat>'
 
-set nowrap
+set runtimepath^=~/.vim/bundle/vim-licenses
+set wrap
 set ruler
 set wildmenu
 set incsearch
