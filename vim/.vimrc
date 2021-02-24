@@ -1,15 +1,23 @@
 set nocompatible              " be iMproved, required
 set nomodeline
-filetype plugin on
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
+
 let g:licenses_copyright_holders_name = 'Biel A. P. - 0xbiel <biel@ugly.cat>'
 let g:licenses_authors_name = 'Biel A. P. - 0xbiel <biel@ugly.cat>'
-
-set runtimepath^=~/.vim/bundle/vim-licenses
 set wrap
 set ruler
 set wildmenu
 set incsearch
 set confirm
+set number
 "set laststatus=2
 set list
 set listchars=
@@ -17,7 +25,7 @@ set listchars+=precedes:<,extends:>
 set listchars+=tab:..
 set sidescroll=5
 set scrolloff=5
-set cc=80
+"set cc=80
 set title
 "colorscheme shady
 syntax on
