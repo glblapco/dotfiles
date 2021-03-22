@@ -1,5 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/biel/projects/0x0x/smdbg'
 let g:netrw_dirhist_2='/home/biel/projects/fun/aperio/lfs-scripts/ports'
 let g:netrw_dirhist_3='/home/biel/projects/fun/aperio/lfs-scripts/rootfs/bin'
+let g:netrw_dirhist_4='/home/biel/projects/man'
+let g:netrw_dirhist_5='/home/biel/.weechat'
+let g:netrw_dirhist_6='/home/biel/Downloads/minimal-linux-script'
+let g:netrw_dirhist_7='/home/biel/Downloads'
+let g:netrw_dirhist_8='/home/biel/Downloads/minimal-linux-script'
+let g:netrw_dirhist_9='/home/biel/ctf/bc/lime/base/sources/com/limebike'

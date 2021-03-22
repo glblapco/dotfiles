@@ -583,3 +583,245 @@
 2021-02-07 10:19:59	--	MSG(NickServ): SETPASS Oxbiel tuulpqmshbev polastrini07
 2021-02-07 10:20:00	--	NickServ (NickServ@services.): The password for Oxbiel has been changed to polastrini07.
 2021-02-07 10:23:14	--	irc: disconnected from server
+2021-02-24 12:30:41	--	irc: connecting to server chat.freenode.net/6667...
+2021-02-24 12:30:41	--	irc: connected to chat.freenode.net/6667 (130.185.232.126)
+2021-02-24 12:30:42	--	hitchcock.freenode.net: *** Looking up your hostname...
+2021-02-24 12:30:42	--	hitchcock.freenode.net: *** Checking Ident
+2021-02-24 12:30:42	--	hitchcock.freenode.net: *** Couldn't look up your hostname
+2021-02-24 12:30:49	--	hitchcock.freenode.net: *** No Ident response
+2021-02-24 12:30:49	--	irc: client capability, server supports: extended-join tls multi-prefix identify-msg account-notify chghost sasl cap-notify away-notify
+2021-02-24 12:30:49	--	irc: client capability, requesting: sasl
+2021-02-24 12:30:50	--	irc: client capability, enabled: sasl
+2021-02-24 12:30:50	--	SASL authentication failed
+2021-02-24 12:30:51	--	SASL authentication aborted
+2021-02-24 12:30:51	--	Welcome to the freenode Internet Relay Chat Network Oxbiel
+2021-02-24 12:30:51	--	MSG(nickserv): identify ************
+2021-02-24 12:30:51	--	Your host is hitchcock.freenode.net[130.185.232.126/6667], running version ircd-seven-1.1.9
+2021-02-24 12:30:51	--	This server was created Sun Jul 12 2020 at 20:48:04 UTC
+2021-02-24 12:30:51	--	hitchcock.freenode.net ircd-seven-1.1.9 DOQRSZaghilopsuwz CFILMPQSbcefgijklmnopqrstuvz bkloveqjfI
+2021-02-24 12:30:51	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstuz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2021-02-24 12:30:51	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 WHOX MONITOR=100 SAFELIST :are supported by this server
+2021-02-24 12:30:51	--	ELIST=CTU ETRACE CPRIVMSG CNOTICE KNOCK :are supported by this server
+2021-02-24 12:30:51	--	There are 100 users and 87339 invisible on 33 servers
+2021-02-24 12:30:51	--	35 :IRC Operators online
+2021-02-24 12:30:51	--	40 :unknown connection(s)
+2021-02-24 12:30:51	--	46331 :channels formed
+2021-02-24 12:30:51	--	I have 4390 clients and 1 servers
+2021-02-24 12:30:51	--	4390 5114 :Current local users 4390, max 5114
+2021-02-24 12:30:51	--	87439 91110 :Current global users 87439, max 91110
+2021-02-24 12:30:51	--	Highest connection count: 5115 (5114 clients) (854865 connections received)
+2021-02-24 12:30:51	--	- hitchcock.freenode.net Message of the Day -
+2021-02-24 12:30:51	--	-
+2021-02-24 12:30:51	--	- Welcome to hitchcock.freenode.net in Sofia, Bulgaria, EU, kindly sponsored by
+2021-02-24 12:30:51	--	- Elemental TV (www.elemental.tv)
+2021-02-24 12:30:51	--	-
+2021-02-24 12:30:51	--	- HITCHCOCK, SIR ALFRED [1899 - 1980] Born in Essex,
+2021-02-24 12:30:51	--	- England, Sir Alfred Hitchcock was a noted film director
+2021-02-24 12:30:51	--	- and producer. Over a long career he pioneered many modern
+2021-02-24 12:30:51	--	- techniques in film-making, made more than 50 feature films,
+2021-02-24 12:30:51	--	- and influenced many present-day directors and producers.
+2021-02-24 12:30:51	--	-
+2021-02-24 12:30:51	--	- Welcome to freenode - supporting the free and open source
+2021-02-24 12:30:51	--	- software communities since 1998.
+2021-02-24 12:30:51	--	-
+2021-02-24 12:30:51	--	- By connecting to freenode you indicate that you have read and
+2021-02-24 12:30:51	--	- accept our policies and guidelines as set out on https://freenode.net
+2021-02-24 12:30:51	--	-
+2021-02-24 12:30:51	--	- In the event that you observe behaviour that contravenes our policies,
+2021-02-24 12:30:51	--	- please notify a volunteer staff member via private message, or send us an
+2021-02-24 12:30:51	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2021-02-24 12:30:51	--	- situation within a reasonable period of time, and we may request further
+2021-02-24 12:30:51	--	- information or, as appropriate, involve other parties such as channel operators
+2021-02-24 12:30:51	--	- Group Contacts representing an on-topic group.
+2021-02-24 12:30:51	--	-
+2021-02-24 12:30:51	--	- freenode runs an open proxy scanner.
+2021-02-24 12:30:51	--	-
+2021-02-24 12:30:51	--	- If you are looking for assistance, you may be able to find a list of
+2021-02-24 12:30:51	--	- volunteer staff on '/stats p' (shows only on-call staff) or by joining
+2021-02-24 12:30:51	--	- #freenode and using the '/who freenode/staff/*' command. You may message
+2021-02-24 12:30:51	--	- any of us at any time. Please note that freenode predominantly provides
+2021-02-24 12:30:51	--	- assistance via private message, and while we have a network channel the
+2021-02-24 12:30:51	--	- primary venue for support requests is via private message to a member
+2021-02-24 12:30:51	--	- of the volunteer staff team.
+2021-02-24 12:30:51	--	-
+2021-02-24 12:30:51	--	- From time to time, volunteer staff may send server-wide notices relating to
+2021-02-24 12:30:51	--	- the project, or the communities that we host. The majority of such notices
+2021-02-24 12:30:51	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2021-02-24 12:30:51	--	- do not miss them. Important messages relating to the freenode project, including
+2021-02-24 12:30:51	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2021-02-24 12:30:51	--	- global notices.
+2021-02-24 12:30:51	--	-
+2021-02-24 12:30:51	--	- Representing an on-topic project? Don't forget to register, more information
+2021-02-24 12:30:51	--	- can be found on the https://freenode.net website under "Group Registration".
+2021-02-24 12:30:51	--	-
+2021-02-24 12:30:51	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2021-02-24 12:30:51	--	- network going for close to two decades.
+2021-02-24 12:30:51	--	-
+2021-02-24 12:30:51	--	- Thank you for using freenode!
+2021-02-24 12:30:51	--	End of /MOTD command.
+2021-02-24 12:30:51	--	User mode [+Ri] by Oxbiel
+2021-02-24 12:30:51	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2021-02-24 12:30:51	--	freenode-connect (frigg@freenode/utility-bot/frigg): Welcome to freenode. To protect the network all new connections will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
+2021-02-24 12:30:52	--	CTCP requested by freenode-connect: VERSION
+2021-02-24 12:30:52	--	CTCP reply to freenode-connect: VERSION WeeChat 2.3 (Jan  4 2019 16:06:44)
+2021-02-24 12:30:57	--	#droidsec: Cannot join channel (+r) - you need to be identified with services - see https://freenode.net/kb/answer/registration
+2021-02-24 12:30:57	--	##re: Cannot join channel (+r) - you need to be identified with services - see https://freenode.net/kb/answer/registration
+2021-02-24 12:30:57	--	NickServ (NickServ@services.): You are now identified for Oxbiel.
+2021-02-24 12:36:30	--	irc: disconnected from server
+2021-03-02 12:21:58	--	irc: connecting to server chat.freenode.net/6667...
+2021-03-02 12:21:58	--	irc: connected to chat.freenode.net/6667 (2a01:270:0:666f::1)
+2021-03-02 12:21:58	--	adams.freenode.net: *** Looking up your hostname...
+2021-03-02 12:21:58	--	adams.freenode.net: *** Checking Ident
+2021-03-02 12:22:01	--	adams.freenode.net: *** Couldn't look up your hostname
+2021-03-02 12:22:05	--	adams.freenode.net: *** No Ident response
+2021-03-02 12:22:05	--	irc: client capability, server supports: extended-join tls multi-prefix identify-msg account-notify chghost sasl cap-notify away-notify
+2021-03-02 12:22:05	--	irc: client capability, requesting: sasl
+2021-03-02 12:22:06	--	irc: client capability, enabled: sasl
+2021-03-02 12:22:06	--	SASL authentication failed
+2021-03-02 12:22:07	--	SASL authentication aborted
+2021-03-02 12:22:07	--	Welcome to the freenode Internet Relay Chat Network Oxbiel
+2021-03-02 12:22:07	--	MSG(nickserv): identify ************
+2021-03-02 12:22:07	--	Your host is adams.freenode.net[2a01:270:0:666f::1/6667], running version ircd-seven-1.1.9
+2021-03-02 12:22:07	--	This server was created Tue Jan 14 2020 at 13:01:45 UTC
+2021-03-02 12:22:07	--	adams.freenode.net ircd-seven-1.1.9 DOQRSZaghilopsuwz CFILMPQSbcefgijklmnopqrstuvz bkloveqjfI
+2021-03-02 12:22:07	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstuz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2021-03-02 12:22:07	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE ETRACE :are supported by this server
+2021-03-02 12:22:07	--	KNOCK SAFELIST ELIST=CTU WHOX MONITOR=100 :are supported by this server
+2021-03-02 12:22:07	--	There are 96 users and 86578 invisible on 33 servers
+2021-03-02 12:22:07	--	31 :IRC Operators online
+2021-03-02 12:22:07	--	5 :unknown connection(s)
+2021-03-02 12:22:07	--	46424 :channels formed
+2021-03-02 12:22:07	--	I have 4384 clients and 1 servers
+2021-03-02 12:22:07	--	4384 7034 :Current local users 4384, max 7034
+2021-03-02 12:22:07	--	86674 91110 :Current global users 86674, max 91110
+2021-03-02 12:22:07	--	Highest connection count: 7035 (7034 clients) (1798742 connections received)
+2021-03-02 12:22:07	--	- adams.freenode.net Message of the Day -
+2021-03-02 12:22:07	--	- Welcome to adams.freenode.net. Thanks to ATW Internet Kft
+2021-03-02 12:22:07	--	- (http://www.atw.hu) for sponsoring this server!
+2021-03-02 12:22:07	--	-
+2021-03-02 12:22:07	--	- ADAMS, DOUGLAS (1952-2001).  Author of The Hitch Hikers Guide
+2021-03-02 12:22:07	--	- to the Galaxy and many other witty and humourous books,
+2021-03-02 12:22:07	--	- portrayed in his uniquely British irony. He is sorely missed
+2021-03-02 12:22:07	--	- by many millions of devoted fans. "So long and thanks for all
+2021-03-02 12:22:07	--	- the books!"
+2021-03-02 12:22:07	--	-
+2021-03-02 12:22:07	--	- Welcome to freenode - supporting the free and open source
+2021-03-02 12:22:07	--	- software communities since 1998.
+2021-03-02 12:22:07	--	-
+2021-03-02 12:22:07	--	- By connecting to freenode you indicate that you have read and
+2021-03-02 12:22:07	--	- accept our policies and guidelines as set out on https://freenode.net
+2021-03-02 12:22:07	--	-
+2021-03-02 12:22:07	--	- In the event that you observe behaviour that contravenes our policies,
+2021-03-02 12:22:07	--	- please notify a volunteer staff member via private message, or send us an
+2021-03-02 12:22:07	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2021-03-02 12:22:07	--	- situation within a reasonable period of time, and we may request further
+2021-03-02 12:22:07	--	- information or, as appropriate, involve other parties such as channel operators
+2021-03-02 12:22:07	--	- Group Contacts representing an on-topic group.
+2021-03-02 12:22:07	--	-
+2021-03-02 12:22:07	--	- freenode runs an open proxy scanner.
+2021-03-02 12:22:07	--	-
+2021-03-02 12:22:07	--	- If you are looking for assistance, you may be able to find a list of
+2021-03-02 12:22:07	--	- volunteer staff on '/stats p' (shows only on-call staff) or by joining
+2021-03-02 12:22:07	--	- #freenode and using the '/who freenode/staff/*' command. You may message
+2021-03-02 12:22:07	--	- any of us at any time. Please note that freenode predominantly provides
+2021-03-02 12:22:07	--	- assistance via private message, and while we have a network channel the
+2021-03-02 12:22:07	--	- primary venue for support requests is via private message to a member
+2021-03-02 12:22:07	--	- of the volunteer staff team.
+2021-03-02 12:22:07	--	-
+2021-03-02 12:22:07	--	- From time to time, volunteer staff may send server-wide notices relating to
+2021-03-02 12:22:07	--	- the project, or the communities that we host. The majority of such notices
+2021-03-02 12:22:07	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2021-03-02 12:22:07	--	- do not miss them. Important messages relating to the freenode project, including
+2021-03-02 12:22:07	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2021-03-02 12:22:07	--	- global notices.
+2021-03-02 12:22:07	--	-
+2021-03-02 12:22:07	--	- Representing an on-topic project? Don't forget to register, more information
+2021-03-02 12:22:07	--	- can be found on the https://freenode.net website under "Group Registration".
+2021-03-02 12:22:07	--	-
+2021-03-02 12:22:07	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2021-03-02 12:22:07	--	- network going for close to two decades.
+2021-03-02 12:22:07	--	-
+2021-03-02 12:22:07	--	- Thank you for using freenode!
+2021-03-02 12:22:07	--	End of /MOTD command.
+2021-03-02 12:22:07	--	User mode [+i] by Oxbiel
+2021-03-02 12:22:07	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2021-03-02 12:22:13	--	#droidsec: Cannot join channel (+r) - you need to be identified with services - see https://freenode.net/kb/answer/registration
+2021-03-02 12:22:13	--	##re: Cannot join channel (+r) - you need to be identified with services - see https://freenode.net/kb/answer/registration
+2021-03-02 12:22:13	--	NickServ (NickServ@services.): You are now identified for Oxbiel.
+2021-03-02 12:42:35	--	irc: disconnected from server
+2021-03-08 16:27:26	--	irc: connecting to server chat.freenode.net/6667...
+2021-03-08 16:27:27	--	irc: connected to chat.freenode.net/6667 (2607:5300:201:2000::8f6)
+2021-03-08 16:27:27	--	cherryh.freenode.net: *** Looking up your hostname...
+2021-03-08 16:27:27	--	cherryh.freenode.net: *** Checking Ident
+2021-03-08 16:27:27	--	cherryh.freenode.net: *** Couldn't look up your hostname
+2021-03-08 16:27:36	--	cherryh.freenode.net: *** No Ident response
+2021-03-08 16:27:36	--	irc: client capability, server supports: extended-join tls multi-prefix identify-msg account-notify chghost sasl cap-notify away-notify
+2021-03-08 16:27:36	--	irc: client capability, requesting: sasl
+2021-03-08 16:27:36	--	irc: client capability, enabled: sasl
+2021-03-08 16:27:37	--	SASL authentication failed
+2021-03-08 16:27:38	--	SASL authentication aborted
+2021-03-08 16:27:38	--	Welcome to the freenode Internet Relay Chat Network Oxbiel
+2021-03-08 16:27:38	--	MSG(nickserv): identify ************
+2021-03-08 16:27:38	--	Your host is cherryh.freenode.net[2607:5300:201:2000::8f6/6667], running version ircd-seven-1.1.9
+2021-03-08 16:27:38	--	This server was created Wed Oct 28 2020 at 22:01:42 UTC
+2021-03-08 16:27:38	--	cherryh.freenode.net ircd-seven-1.1.9 DOQRSZaghilopsuwz CFILMPQSbcefgijklmnopqrstuvz bkloveqjfI
+2021-03-08 16:27:38	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstuz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2021-03-08 16:27:38	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK MONITOR=100 SAFELIST :are supported by this server
+2021-03-08 16:27:38	--	ELIST=CTU CPRIVMSG CNOTICE ETRACE WHOX :are supported by this server
+2021-03-08 16:27:38	--	There are 103 users and 83655 invisible on 33 servers
+2021-03-08 16:27:38	--	36 :IRC Operators online
+2021-03-08 16:27:38	--	56 :unknown connection(s)
+2021-03-08 16:27:38	--	46609 :channels formed
+2021-03-08 16:27:38	--	I have 3631 clients and 1 servers
+2021-03-08 16:27:38	--	3631 5250 :Current local users 3631, max 5250
+2021-03-08 16:27:38	--	83758 91110 :Current global users 83758, max 91110
+2021-03-08 16:27:38	--	Highest connection count: 5251 (5250 clients) (413165 connections received)
+2021-03-08 16:27:38	--	- cherryh.freenode.net Message of the Day -
+2021-03-08 16:27:38	--	- Welcome to cherryh.freenode.net in Montreal, CA.
+2021-03-08 16:27:38	--	- Welcome to freenode - supporting the free and open source
+2021-03-08 16:27:38	--	- software communities since 1998.
+2021-03-08 16:27:38	--	-
+2021-03-08 16:27:38	--	- By connecting to freenode you indicate that you have read and
+2021-03-08 16:27:38	--	- accept our policies and guidelines as set out on https://freenode.net
+2021-03-08 16:27:38	--	-
+2021-03-08 16:27:38	--	- In the event that you observe behaviour that contravenes our policies,
+2021-03-08 16:27:38	--	- please notify a volunteer staff member via private message, or send us an
+2021-03-08 16:27:38	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2021-03-08 16:27:38	--	- situation within a reasonable period of time, and we may request further
+2021-03-08 16:27:38	--	- information or, as appropriate, involve other parties such as channel operators
+2021-03-08 16:27:38	--	- Group Contacts representing an on-topic group.
+2021-03-08 16:27:38	--	-
+2021-03-08 16:27:38	--	- freenode runs an open proxy scanner.
+2021-03-08 16:27:38	--	-
+2021-03-08 16:27:38	--	- If you are looking for assistance, you may be able to find a list of
+2021-03-08 16:27:38	--	- volunteer staff on '/stats p' (shows only on-call staff) or by joining
+2021-03-08 16:27:38	--	- #freenode and using the '/who freenode/staff/*' command. You may message
+2021-03-08 16:27:38	--	- any of us at any time. Please note that freenode predominantly provides
+2021-03-08 16:27:38	--	- assistance via private message, and while we have a network channel the
+2021-03-08 16:27:38	--	- primary venue for support requests is via private message to a member
+2021-03-08 16:27:38	--	- of the volunteer staff team.
+2021-03-08 16:27:38	--	-
+2021-03-08 16:27:38	--	- From time to time, volunteer staff may send server-wide notices relating to
+2021-03-08 16:27:38	--	- the project, or the communities that we host. The majority of such notices
+2021-03-08 16:27:38	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2021-03-08 16:27:38	--	- do not miss them. Important messages relating to the freenode project, including
+2021-03-08 16:27:38	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2021-03-08 16:27:38	--	- global notices.
+2021-03-08 16:27:38	--	-
+2021-03-08 16:27:38	--	- Representing an on-topic project? Don't forget to register, more information
+2021-03-08 16:27:38	--	- can be found on the https://freenode.net website under "Group Registration".
+2021-03-08 16:27:38	--	-
+2021-03-08 16:27:38	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2021-03-08 16:27:38	--	- network going for close to two decades.
+2021-03-08 16:27:38	--	-
+2021-03-08 16:27:38	--	- Thank you for using freenode!
+2021-03-08 16:27:38	--	End of /MOTD command.
+2021-03-08 16:27:38	--	User mode [+Ri] by Oxbiel
+2021-03-08 16:27:38	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2021-03-08 16:27:38	--	freenode-connect (~eir@freenode/utility-bot/frigg): Welcome to freenode. To protect the network all new connections will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
+2021-03-08 16:27:39	--	CTCP requested by freenode-connect: VERSION
+2021-03-08 16:27:39	--	CTCP reply to freenode-connect: VERSION WeeChat 2.3 (Jan  4 2019 16:06:44)
+2021-03-08 16:27:44	--	#droidsec: Cannot join channel (+r) - you need to be identified with services - see https://freenode.net/kb/answer/registration
+2021-03-08 16:27:44	--	##re: Cannot join channel (+r) - you need to be identified with services - see https://freenode.net/kb/answer/registration
+2021-03-08 16:27:44	--	NickServ (NickServ@services.): You are now identified for Oxbiel.
+2021-03-08 17:09:14	--	irc: disconnected from server

@@ -101,3 +101,35 @@
 2021-02-07 10:23:07		Options saved to perl.conf
 2021-02-07 10:23:07		Options saved to script.conf
 2021-02-07 10:23:07		Options saved to fset.conf
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/exec.conf, line 15: unknown option for section "command": shell = "${env:SHELL}"
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/xfer.conf, line 34: unknown option for section "network": speed_limit_recv = 0
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/xfer.conf, line 35: unknown option for section "network": speed_limit_send = 0
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/xfer.conf, line 47: unknown option for section "file": download_temporary_suffix = ".part"
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/irc.conf, line 33: unknown option for section "look": display_pv_warning_address = off
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/irc.conf, line 61: unknown option for section "look": smart_filter_account = on
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/irc.conf, line 78: unknown option for section "color": message_account = cyan
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/irc.conf, line 81: unknown option for section "color": message_kick = red
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/irc.conf, line 86: unknown option for section "color": reason_kick = default
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/irc.conf, line 128: unknown option for section "server_default": charset_message = message
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/irc.conf, line 154: unknown option for section "server_default": ssl_password = ""
+2021-02-24 12:30:41	=!=	irc: error creating server option "freenode.ssl_password"
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/irc.conf, line 166: invalid value for option: freenode.ssl_password
+2021-02-24 12:30:41	=!=	irc: error creating server option "freenode.charset_message"
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/irc.conf, line 203: invalid value for option: freenode.charset_message
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/relay.conf, line 30: unknown option for section "network": auth_timeout = 60
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/relay.conf, line 36: unknown option for section "network": nonce_size = 16
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/relay.conf, line 38: unknown option for section "network": password_hash_algo = "*"
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/relay.conf, line 39: unknown option for section "network": password_hash_iterations = 100000
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/relay.conf, line 42: unknown option for section "network": totp_secret = ""
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/relay.conf, line 43: unknown option for section "network": totp_window = 0
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/relay.conf, line 54: unknown section identifier ("weechat")
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/relay.conf, line 55: option outside section: commands = ""
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/relay.conf, line 59: unknown section identifier ("path")
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/script.conf, line 53: unknown option for section "scripts": download_enabled = off
+2021-02-24 12:30:41	=!=	Warning: /home/biel/.weechat/fset.conf, line 13: unknown option for section "look": auto_refresh = "*"
+2021-02-24 12:30:41		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2021-02-24 12:36:30		fifo: pipe closed
+2021-03-02 12:21:57		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2021-03-02 12:42:35		fifo: pipe closed
+2021-03-08 16:27:26		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2021-03-08 17:09:14		fifo: pipe closed
