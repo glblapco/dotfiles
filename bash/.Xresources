@@ -5,3 +5,8 @@ XTerm*faceSize: 12
 XTerm*vt100.translations: #override \
     Shift Ctrl <Key> C: copy-selection(CLIPBOARD) \n\
     Shift Ctrl <Key> V: insert-selection(CLIPBOARD)
+
+URxvt.font: xft:Terminus:size=10
+URxvt.scrollBar: false
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
