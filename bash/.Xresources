@@ -5,6 +5,12 @@ XTerm*faceSize: 12
 XTerm*vt100.translations: #override \
     Shift Ctrl <Key> C: copy-selection(CLIPBOARD) \n\
     Shift Ctrl <Key> V: insert-selection(CLIPBOARD)
+UXTerm*faceName: Terminus
+UXTerm*faceSize: 12
+UXTerm*vt100.translations: #override \
+    Shift Ctrl <Key> C: copy-selection(CLIPBOARD) \n\
+    Shift Ctrl <Key> V: insert-selection(CLIPBOARD)
+
 
 URxvt.font: xft:Terminus:size=10
 URxvt.scrollBar: false
