@@ -38,6 +38,8 @@ let g:plug_dir = expand('~/.vim/bundle')
 call plug#begin(g:plug_dir)
 
 Plug 'antoyo/vim-licenses'
+Plug 'junegunn/goyo.vim'
+Plug 'tpope/vim-fugitive'
 
 """ All of your Plugins must be added before the following line
 " Add plugins to &runtimepath
@@ -62,7 +64,7 @@ set sidescroll=5
 set scrolloff=5
 "set cc=80
 set title
-"colorscheme elflord
+colorscheme sv
 syntax on
 set tabstop=2
 set shiftwidth=2
