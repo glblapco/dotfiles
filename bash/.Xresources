@@ -17,6 +17,9 @@ URxvt.scrollBar: false
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
 
+# font configuration for vim.athena GUI.
+Vim*font: -xos4-terminus-medium-*-normal-*-14-140-72-72-*-*-*-*
+
 Emacs.toolBar: 0
 Emacs.menuBar: 0
 Emacs.font: Terminus

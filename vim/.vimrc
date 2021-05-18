@@ -65,7 +65,7 @@ set sidescroll=5
 set scrolloff=5
 set cc=80
 set title
-"colorscheme sv
+"colorscheme desert
 syntax on
 set tabstop=2
 set shiftwidth=2
