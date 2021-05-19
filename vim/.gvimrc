@@ -65,12 +65,16 @@ set sidescroll=5
 set scrolloff=5
 set cc=80
 set title
-"colorscheme desert
+
+"colorscheme slate
+colorscheme industry
 syntax on
 set tabstop=2
 set shiftwidth=2
 set ai
 "set guioptions=Ace
+set guioptions-=m
+set guioptions-=T
 "inoremap <S-Space> <Esc>/<++><Enter>"_c4l
 iabbrev blogtemp    <html><CR><head><CR><title>0xbiel</title><CR><link rel="stylesheet" href="./style.css"</link><CR><meta name="viewport" content="width=device-width, initial-scale=1"><CR></head><CR><body><CR><pre><CR></pre><CR></body><CR></html>
 
