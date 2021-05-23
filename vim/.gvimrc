@@ -66,8 +66,8 @@ set scrolloff=5
 set cc=80
 set title
 
-"colorscheme slate
-colorscheme industry
+"colorscheme default
+colorscheme jellyeans
 syntax on
 set tabstop=2
 set shiftwidth=2

@@ -48,10 +48,10 @@ bindsym $mod+d exec rofi -show run -theme /home/biel/.config/rofi/themes/0xi3.ra
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+l focus left
+bindsym $mod+h focus left
 bindsym $mod+j focus down
 bindsym $mod+k focus up
-bindsym $mod+h focus right
+bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -79,6 +79,7 @@ bindsym $mod+v split v
 
 #border and shit
 #for_window [class=".*"] resize set width 43 ppt
+for_window [class="feh"] floating enable border none
 
 set $bg #000000
 set $bga #444444
@@ -95,7 +96,7 @@ set $btf #575757
 #client.unfocused        $unf    $unf    $fgi $bg       $unf 
 
 #default_border pixel 2
-#default_floating_border pixel 2
+#default_floating_border none
 
 bindsym $mod+u border none
 bindsym $mod+y border pixel 1
