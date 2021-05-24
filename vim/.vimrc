@@ -44,6 +44,8 @@ call plug#begin(g:plug_dir)
 Plug 'antoyo/vim-licenses'
 Plug 'junegunn/goyo.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'kien/ctrlp.vim'
+Plug 'miyakogi/conoline.vim'
 
 """ All of your Plugins must be added before the following line
 " Add plugins to &runtimepath
@@ -51,6 +53,11 @@ call plug#end()   "required
 
 let g:licenses_copyright_holders_name = 'Biel A. P. <biel@aperio.org>'
 let g:licenses_authors_name = 'Biel A. P. <biel@aperio.org>'
+
+let g:ctrlp_prompt_mappings = {
+    \ 'AcceptSelection("e")': ['<2-LeftMouse>'],
+    \ 'AcceptSelection("t")': ['<cr>'],
+    \ }
 set nowrap
 set ruler
 set wildmenu
@@ -73,7 +80,7 @@ syntax on
 set tabstop=2
 set shiftwidth=2
 set ai
-set guioptions=Ace
+"set guioptions=Ace
 "inoremap <S-Space> <Esc>/<++><Enter>"_c4l
 iabbrev blogtemp    <html><CR><head><CR><title>0xbiel</title><CR><link rel="stylesheet" href="./style.css"</link><CR><meta name="viewport" content="width=device-width, initial-scale=1"><CR></head><CR><body><CR><pre><CR></pre><CR></body><CR></html>
 
