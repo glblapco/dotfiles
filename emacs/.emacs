@@ -7,7 +7,7 @@
 URL `http://ergoemacs.org/misc/ergoemacs_vi_mode.html'"
   :group 'xah-fly-keys
   :global t
-  :lighter " ∑flykeys"
+  :lighter ""
   :keymap xah-fly-insert-map
   (if xah-fly-keys
       ;; Construction:
