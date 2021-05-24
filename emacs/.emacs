@@ -1,3 +1,34 @@
+(require 'xah-fly-keys)
+(xah-fly-keys-set-layout "qwerty")
+(xah-fly-keys 1)
+
+(define-minor-mode xah-fly-keys
+  "A modal keybinding set, like vim, but based on ergonomic principles, like Dvorak layout.
+URL `http://ergoemacs.org/misc/ergoemacs_vi_mode.html'"
+  :group 'xah-fly-keys
+  :global t
+  :lighter " ∑flykeys"
+  :keymap xah-fly-insert-map
+  (if xah-fly-keys
+      ;; Construction:
+      (progn
+        (add-hook 'minibuffer-setup-hook 'xah-fly-insert-mode-activate)
+        (add-hook 'minibuffer-exit-hook 'xah-fly-command-mode-activate)
+        (add-hook 'isearch-mode-end-hook 'xah-fly-command-mode-activate)
+        (when (and (keymapp xah-fly-key-map)
+                   (not (memq xah-fly-key-map (list xah-fly-command-map
+                                                    xah-fly-insert-map))))
+          (set-keymap-parent xah-fly-key-map xah-fly-shared-map)
+          (setq xah-fly-shared-map xah-fly-key-map))
+        (xah-fly-command-mode-activate))
+    ;; Teardown:
+    (remove-hook 'minibuffer-setup-hook 'xah-fly-insert-mode-activate)
+    (remove-hook 'minibuffer-exit-hook 'xah-fly-command-mode-activate)
+    (remove-hook 'shell-mode-hook 'xah-fly-insert-mode-activate)
+    (remove-hook 'isearch-mode-end-hook 'xah-fly-command-mode-activate)
+    (xah-fly-insert-mode-init :no-indication)
+    (setq mode-line-front-space '(:eval (if (display-graphic-p) " " "-")))))
+
 (set-frame-font "Terminus 12" t)
 ;;(menu-bar-mode -1)
 ;;(tool-bar-mode -1)
@@ -32,6 +63,8 @@
  '(create-lockfiles nil)
  '(custom-enabled-themes nil)
  '(nil nil t)
+ '(package-selected-packages
+   '(xah-fly-keys templatel org magit htmlize haskell-mode go-mode))
  '(tab-bar ((t (:background "black" :foreground "white"))))
  '(tab-bar-tab
    ((t
