@@ -133,3 +133,21 @@
 2021-03-02 12:42:35		fifo: pipe closed
 2021-03-08 16:27:26		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, trigger, xfer
 2021-03-08 17:09:14		fifo: pipe closed
+2021-05-26 08:03:22		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2021-05-26 08:04:38		irc: server libera added
+2021-05-26 08:05:05		Option changed: irc.server.libera.nicks = "Oxbiel, _0xbiel_"  (default if null: "Oxbiel,_0xbiel_,0xbiel")
+2021-05-26 08:05:21		Option changed: irc.server.libera.username = "0xbiel"  (default if null: "biel")
+2021-05-26 08:05:31		Option changed: irc.server.libera.realname = "Biel"  (default if null: "")
+2021-05-26 08:05:37		Option changed: irc.server.libera.autoconnect = on  (default if null: off)
+2021-05-26 08:05:51		Option changed: irc.server.libera.sasl_username = "Oxbiel"  (default if null: "")
+2021-05-26 08:06:03		Option changed: irc.server.libera.sasl_password = "polastrini07"  (default if null: "")
+2021-05-26 08:06:17		Option changed: irc.server.libera.command = "/msg nickserv identify polastrini07"  (default if null: "")
+2021-05-26 08:06:28		Passphrase changed
+2021-05-26 08:06:28		Options saved to sec.conf
+2021-05-26 08:06:37		Secured data "libera_password" set
+2021-05-26 08:06:37		Options saved to sec.conf
+2021-05-26 08:06:42		Option changed: irc.server.libera.sasl_password = "${sec.data.libera_password}"  (default if null: "")
+2021-05-26 08:09:19		Option changed: irc.server.freenode.autoconnect = off  (default if null: off)
+2021-05-26 08:09:32		fifo: pipe closed
+2021-05-26 08:09:40		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2021-05-26 08:18:47		fifo: pipe closed

@@ -825,3 +825,90 @@
 2021-03-08 16:27:44	--	##re: Cannot join channel (+r) - you need to be identified with services - see https://freenode.net/kb/answer/registration
 2021-03-08 16:27:44	--	NickServ (NickServ@services.): You are now identified for Oxbiel.
 2021-03-08 17:09:14	--	irc: disconnected from server
+2021-05-26 08:03:22	--	irc: connecting to server chat.freenode.net/6667...
+2021-05-26 08:03:22	--	irc: connected to chat.freenode.net/6667 (2001:5a0:3604:1:64:86:243:181)
+2021-05-26 08:03:22	--	karatkievich.freenode.net: *** Looking up your hostname...
+2021-05-26 08:03:22	--	karatkievich.freenode.net: *** Checking Ident
+2021-05-26 08:03:22	--	karatkievich.freenode.net: *** Couldn't look up your hostname
+2021-05-26 08:03:32	--	karatkievich.freenode.net: *** No Ident response
+2021-05-26 08:03:32	--	irc: client capability, server supports: extended-join tls multi-prefix identify-msg account-notify chghost sasl cap-notify away-notify
+2021-05-26 08:03:32	--	irc: client capability, requesting: sasl
+2021-05-26 08:03:33	--	irc: client capability, enabled: sasl
+2021-05-26 08:03:33	--	SASL authentication failed
+2021-05-26 08:03:34	--	SASL authentication aborted
+2021-05-26 08:03:34	--	Welcome to the freenode Internet Relay Chat Network Oxbiel
+2021-05-26 08:03:34	--	MSG(nickserv): identify ************
+2021-05-26 08:03:34	--	Your host is karatkievich.freenode.net[2001:5a0:3604:1:64:86:243:181/6667], running version ircd-seven-1.1.9
+2021-05-26 08:03:34	--	This server was created Wed Oct 28 2020 at 22:07:50 UTC
+2021-05-26 08:03:34	--	karatkievich.freenode.net ircd-seven-1.1.9 DOQRSZaghilopsuwz CFILMPQSbcefgijklmnopqrstuvz bkloveqjfI
+2021-05-26 08:03:34	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstuz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2021-05-26 08:03:34	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE ETRACE :are supported by this server
+2021-05-26 08:03:34	--	KNOCK SAFELIST ELIST=CTU MONITOR=100 WHOX :are supported by this server
+2021-05-26 08:03:34	--	There are 88 users and 68405 invisible on 41 servers
+2021-05-26 08:03:34	--	21 :IRC Operators online
+2021-05-26 08:03:34	--	38416 :channels formed
+2021-05-26 08:03:34	--	I have 6671 clients and 1 servers
+2021-05-26 08:03:34	--	6671 6900 :Current local users 6671, max 6900
+2021-05-26 08:03:34	--	68493 85052 :Current global users 68493, max 85052
+2021-05-26 08:03:34	--	Highest connection count: 6901 (6900 clients) (178173 connections received)
+2021-05-26 08:03:34	--	- karatkievich.freenode.net Message of the Day -
+2021-05-26 08:03:34	--	- Welcome to karatkievich.freenode.net. Thanks to
+2021-05-26 08:03:34	--	- http://www.tatacommunications.com/ for sponsoring
+2021-05-26 08:03:34	--	- this server!
+2021-05-26 08:03:34	--	-
+2021-05-26 08:03:34	--	- KARATKIEVICH, ULADZIMIR (1930-1984) was a Belarusian
+2021-05-26 08:03:34	--	- romantic writer. After his first published work was a poem
+2021-05-26 08:03:34	--	- in 1951, he followed up with novels, short stories, plays,
+2021-05-26 08:03:34	--	- essays, articles and screenplays. His probably most popular
+2021-05-26 08:03:34	--	- work is the novel 'King Stakh's Wild Hunt' (1964). Most his
+2021-05-26 08:03:34	--	- novels are about Belarus's past.  He won many national
+2021-05-26 08:03:34	--	- literary awards and influenced the Belarusian literature's
+2021-05-26 08:03:34	--	- development of historical themes.
+2021-05-26 08:03:34	--	-
+2021-05-26 08:03:34	--	-
+2021-05-26 08:03:34	--	- Welcome to freenode - supporting the free and open source
+2021-05-26 08:03:34	--	- software communities since 1998.
+2021-05-26 08:03:34	--	-
+2021-05-26 08:03:34	--	- By connecting to freenode you indicate that you have read and
+2021-05-26 08:03:34	--	- accept our policies and guidelines as set out on https://freenode.net
+2021-05-26 08:03:34	--	-
+2021-05-26 08:03:34	--	- In the event that you observe behaviour that contravenes our policies,
+2021-05-26 08:03:34	--	- please notify a volunteer staff member via private message, or send us an
+2021-05-26 08:03:34	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2021-05-26 08:03:34	--	- situation within a reasonable period of time, and we may request further
+2021-05-26 08:03:34	--	- information or, as appropriate, involve other parties such as channel operators
+2021-05-26 08:03:34	--	- Group Contacts representing an on-topic group.
+2021-05-26 08:03:34	--	-
+2021-05-26 08:03:34	--	- freenode runs an open proxy scanner.
+2021-05-26 08:03:34	--	-
+2021-05-26 08:03:34	--	- If you are looking for assistance, you may be able to find a list of
+2021-05-26 08:03:34	--	- volunteer staff on '/stats p' (shows only on-call staff) or by joining
+2021-05-26 08:03:34	--	- #freenode and using the '/who freenode/staff/*' command. You may message
+2021-05-26 08:03:34	--	- any of us at any time. Please note that freenode predominantly provides
+2021-05-26 08:03:34	--	- assistance via private message, and while we have a network channel the
+2021-05-26 08:03:34	--	- primary venue for support requests is via private message to a member
+2021-05-26 08:03:34	--	- of the volunteer staff team.
+2021-05-26 08:03:34	--	-
+2021-05-26 08:03:34	--	- From time to time, volunteer staff may send server-wide notices relating to
+2021-05-26 08:03:34	--	- the project, or the communities that we host. The majority of such notices
+2021-05-26 08:03:34	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2021-05-26 08:03:34	--	- do not miss them. Important messages relating to the freenode project, including
+2021-05-26 08:03:34	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2021-05-26 08:03:34	--	- global notices.
+2021-05-26 08:03:34	--	-
+2021-05-26 08:03:34	--	- Representing an on-topic project? Don't forget to register, more information
+2021-05-26 08:03:34	--	- can be found on the https://freenode.net website under "Group Registration".
+2021-05-26 08:03:34	--	-
+2021-05-26 08:03:34	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2021-05-26 08:03:34	--	- network going for close to two decades.
+2021-05-26 08:03:34	--	-
+2021-05-26 08:03:34	--	- Thank you for using freenode!
+2021-05-26 08:03:34	--	End of /MOTD command.
+2021-05-26 08:03:34	--	User mode [+Ri] by Oxbiel
+2021-05-26 08:03:34	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2021-05-26 08:03:40	--	#droidsec: Cannot join channel (+r) - you need to be identified with services - see https://freenode.net/kb/answer/registration
+2021-05-26 08:03:40	--	##re: Cannot join channel (+r) - you need to be identified with services - see https://freenode.net/kb/answer/registration
+2021-05-26 08:03:40	--	NickServ (NickServ@services.): You are now identified for Oxbiel.
+2021-05-26 08:03:40	--	MemoServ (MemoServ@services.): You have 1 new memo.
+2021-05-26 08:03:40	--	MemoServ (MemoServ@services.): To read them, type /msg MemoServ READ NEW
+2021-05-26 08:09:32	--	irc: disconnected from server
