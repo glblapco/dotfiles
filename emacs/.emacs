@@ -22,9 +22,6 @@
 ;;(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (package-initialize)
 
-(typo-global-mode 1)
-(add-hook 'text-mode-hook 'typo-mode)
-
 ;; Fly Keys config
 
 (require 'xah-fly-keys)
@@ -75,7 +72,7 @@ URL `http://ergoemacs.org/misc/ergoemacs_vi_mode.html'"
  '(nil nil t)
  '(package-selected-packages
    (quote
-    (typo multiple-cursors xah-fly-keys templatel org magit htmlize haskell-mode go-mode))))
+    (multiple-cursors xah-fly-keys templatel org magit htmlize haskell-mode go-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
