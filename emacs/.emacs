@@ -22,6 +22,9 @@
 ;;(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (package-initialize)
 
+(typo-global-mode 1)
+(add-hook 'text-mode-hook 'typo-mode)
+
 ;; Fly Keys config
 
 (require 'xah-fly-keys)
@@ -71,23 +74,11 @@ URL `http://ergoemacs.org/misc/ergoemacs_vi_mode.html'"
  '(custom-enabled-themes nil)
  '(nil nil t)
  '(package-selected-packages
-   '(xah-fly-keys templatel org magit htmlize haskell-mode go-mode))
-;; '(tab-bar ((t (:background "black" :foreground "white"))))
-;; '(tab-bar-tab
-;;   ((t
-;;     (:inherit tab-bar :box
-;;	       (:line-width 1 :color "black" :style released-button)))))
-;; '(tab-bar-tab-inactive ((t (:inherit default :background "black"))))
-;; '(tab-line
-;;   ((t
-;;     (:inherit variable-pitch :background "grey85" :foreground "black" :height 1.0)))))
+   (quote
+    (typo multiple-cursors xah-fly-keys templatel org magit htmlize haskell-mode go-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages '(htmlize org ox-html5slide go-mode haskell-mode magit))
-;; '(tab-bar ((t (:background "grey85" :foreground "black" :weight bold))))
-;; '(tab-bar-tab-inactive ((t (:inherit tab-bar-tab :background "grey75" :weight normal))))
-;; '(tab-line ((t (:background "grey85" :foreground "black" :height 0.9 :family "Terminus"))))
-))
+ '(package-selected-packages (quote (htmlize org ox-html5slide go-mode haskell-mode magit))))
