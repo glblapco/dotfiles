@@ -6,6 +6,11 @@
 (toggle-scroll-bar -1)
 (setq create-lockfiles nil)
 (setq org-src-fontify-natively t)
+
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+(setq indent-line-function 'insert-tab)
+
 (global-display-line-numbers-mode)
 
 (setq org-html-htmlize-output-type 'css)
@@ -21,6 +26,7 @@
 ;; and `package-pinned-packages`. Most users will not need or want to do this.
 ;;(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (package-initialize)
+
 
 ;; Fly Keys config
 
@@ -63,6 +69,8 @@ URL `http://ergoemacs.org/misc/ergoemacs_vi_mode.html'"
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+;; '(tab-stop-list (quote (4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120)))
+
  '(ansi-color-faces-vectorn
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
@@ -72,7 +80,7 @@ URL `http://ergoemacs.org/misc/ergoemacs_vi_mode.html'"
  '(nil nil t)
  '(package-selected-packages
    (quote
-    (multiple-cursors xah-fly-keys templatel org magit htmlize haskell-mode go-mode))))
+    (android-mode multiple-cursors xah-fly-keys templatel org magit htmlize haskell-mode go-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
