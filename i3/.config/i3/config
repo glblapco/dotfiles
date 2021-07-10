@@ -33,7 +33,7 @@ exec --no-startup-id dunst
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-bindsym $mod+Shift+s exec /home/biel/proj/bin/rscr
+#bindsym $mod+Shift+s exec /home/biel/proj/bin/rscr
 
 bindsym $mod+Shift+l exec i3lock -c 111111
 
