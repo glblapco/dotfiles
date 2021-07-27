@@ -27,6 +27,11 @@
 ;;(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (package-initialize)
 
+(require 'multiple-cursors)
+(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+(global-set-key (kbd "C->") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 
 ;; Fly Keys config
 
@@ -69,18 +74,19 @@ URL `http://ergoemacs.org/misc/ergoemacs_vi_mode.html'"
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
-;; '(tab-stop-list (quote (4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120)))
-
  '(ansi-color-faces-vectorn
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
    ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
  '(create-lockfiles nil)
  '(custom-enabled-themes nil)
+ '(custom-safe-themes
+   (quote
+    ("5f824cddac6d892099a91c3f612fcf1b09bb6c322923d779216ab2094375c5ee" default)))
  '(nil nil t)
  '(package-selected-packages
    (quote
-    (android-mode multiple-cursors xah-fly-keys templatel org magit htmlize haskell-mode go-mode))))
+    (gruber-darker-theme clojure-mode android-mode multiple-cursors xah-fly-keys templatel org magit htmlize haskell-mode go-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

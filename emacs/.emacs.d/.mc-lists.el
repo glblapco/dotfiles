@@ -3,13 +3,14 @@
 
 (setq mc/cmds-to-run-for-all
       '(
-	c-electric-semi&comma
-	rectangle-mark-mode
-	xah-fly-command-mode-activate
-	xah-fly-insert-mode-activate
-	))
+        c-electric-semi&comma
+        rectangle-mark-mode
+        xah-fly-M-x
+        xah-fly-command-mode-activate
+        xah-fly-insert-mode-activate
+        ))
 
 (setq mc/cmds-to-run-once
       '(
-	xah-beginning-of-line-or-block
-	))
+        xah-beginning-of-line-or-block
+        ))
