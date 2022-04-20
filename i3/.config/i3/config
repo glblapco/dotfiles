@@ -83,7 +83,6 @@ bindsym $mod+c split h
 bindsym $mod+v split v
 
 #border and shit
-#for_window [class=".*"] resize set width 43 ppt
 for_window [class="feh"] floating enable border none
 
 set $bg #000000
@@ -209,9 +208,14 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# split to 40% instead of a 50%
+for_window [class=".*"] resize set width 40 ppt
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
+#	status_command i3status
+#	mode invisible
         status_command py3status
 #        colors {
 #          statusline $fg
